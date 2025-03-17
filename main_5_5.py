@@ -957,23 +957,29 @@ class FileProcessor:
         self._file_size_cache = {}
     
     def _scan_directory(self, directory: str) -> Iterator[List[str]]:
-        """使用生成器分批扫描目录文件"""
+        """使用生成器分批扫描目录文件，确保正确关闭scandir迭代器"""
         current_chunk = []
-        for entry in os.scandir(directory):
-            try:
-                if entry.is_file(follow_symlinks=False) and not entry.name.startswith('~$') and not self.detector._is_internal_stream(entry.name):
-                    ext = Path(entry.path).suffix.lower()
-                    if ext not in self.detector.SKIP_EXTENSIONS:
-                        current_chunk.append(entry.path)
-                        if len(current_chunk) >= self.chunk_size:
-                            yield current_chunk
-                            current_chunk = []
-                elif entry.is_dir(follow_symlinks=False):
-                    for sub_chunk in self._scan_directory(entry.path):
-                        yield sub_chunk
-            except (PermissionError, OSError) as e:
-                logger.warning(f"访问文件/目录出错 {entry.path}: {e}")
-                continue
+        
+        try:
+            with os.scandir(directory) as dir_iter:
+                for entry in dir_iter:
+                    try:
+                        if entry.is_file(follow_symlinks=False) and not entry.name.startswith('~$') and not self.detector._is_internal_stream(entry.name):
+                            ext = Path(entry.path).suffix.lower()
+                            if ext not in self.detector.SKIP_EXTENSIONS:
+                                current_chunk.append(entry.path)
+                                if len(current_chunk) >= self.chunk_size:
+                                    yield current_chunk
+                                    current_chunk = []
+                        elif entry.is_dir(follow_symlinks=False):
+                            for sub_chunk in self._scan_directory(entry.path):
+                                yield sub_chunk
+                    except (PermissionError, OSError) as e:
+                        logger.warning(f"访问文件/目录出错 {entry.path}: {e}")
+                        continue
+        except (PermissionError, OSError) as e:
+            logger.warning(f"访问目录出错 {directory}: {e}")
+        
         if current_chunk:
             yield current_chunk
     
@@ -1001,17 +1007,19 @@ class FileProcessor:
             results.append(result)
             self.monitor.record_result(result)
         
-        current_workers = min(len(other_files), self.max_workers)
-        with ThreadPoolExecutor(max_workers=current_workers) as executor:
-            future_to_file = {executor.submit(self.process_file, fp): fp for fp in other_files}
-            for future in as_completed(future_to_file):
-                file_path = future_to_file[future]
-                try:
-                    result = future.result()
-                    results.append(result)
-                    self.monitor.record_result(result)
-                except Exception as e:
-                    logger.error(f"处理文件异常 {file_path}: {e}")
+        # 修复 - 确保max_workers至少为1
+        if other_files:  # 只有当有文件要处理时才创建线程池
+            current_workers = max(1, min(len(other_files), self.max_workers))
+            with ThreadPoolExecutor(max_workers=current_workers) as executor:
+                future_to_file = {executor.submit(self.process_file, fp): fp for fp in other_files}
+                for future in as_completed(future_to_file):
+                    file_path = future_to_file[future]
+                    try:
+                        result = future.result()
+                        results.append(result)
+                        self.monitor.record_result(result)
+                    except Exception as e:
+                        logger.error(f"处理文件异常 {file_path}: {e}")
         
         if len(self._mime_cache) > 10000:
             self._mime_cache.clear()
