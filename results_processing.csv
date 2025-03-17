@@ -60,3 +60,19 @@
 2025-03-18 01:05:28,C:\file\sensitive\2e9ec5d5b853f252ef2e2ea20df8883a_1,application/vnd.ms-excel,146944,No,0,,0.526,成功,
 2025-03-18 01:05:28,C:\file\sensitive\21a82f12303e533bd4109aeac97f582d,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,9449,No,0,,1.784,成功,
 2025-03-18 01:05:28,C:\file\sensitive\3075ea0c85c1d566e1c2f5dc072cdecf_1,application/vnd.ms-excel,38912,No,0,,0.553,成功,
+2025-03-18 01:05:28,C:\file\sensitive\1ee0e86b80efe9c3467c2ff6336cc37c_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,17269,No,1,销售额(4处),1.908,成功,
+2025-03-18 01:05:29,C:\file\sensitive\177dfaf1b76d066aa3f07f8ef9a51351_1,application/msword,1319851,No,0,,2.257,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:29,C:\file\sensitive\21a82f12303e533bd4109aeac97f582d_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,9449,No,0,,1.809,成功,
+2025-03-18 01:05:29,C:\file\sensitive\1af865ef362b09bc11624d3d66a9493f_1,application/msword,110080,No,0,,2.214,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:29,C:\file\sensitive\147d6ba0a5a91115038c4cbeef22ea1e_1,application/msword,1537536,No,0,,2.526,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:30,C:\file\sensitive\2c8cc645e4129713bcff081d0f581d0c_1,application/vnd.openxmlformats-officedocument.wordprocessingml.document,13628,No,2,风险(6处); 成本(3处),0.891,成功,
+2025-03-18 01:05:30,C:\file\sensitive\1efe611ffad45d0cb3a85f1bdfdf62e8_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,11869,No,0,,2.12,成功,
+2025-03-18 01:05:31,C:\file\sensitive\32b02c1799e18463615209159f51f4ab_1,application/vnd.ms-excel,29184,No,1,编制(13处),0.343,成功,
+2025-03-18 01:05:31,C:\file\sensitive\3324f68137341d067a01b1f00d80ff92_1,application/vnd.ms-excel,23040,No,2,财政(2处); 经办人(2处),0.407,成功,
+2025-03-18 01:05:32,C:\file\sensitive\1da01e47e7bc75172f0eabd399b06c68_1,application/msword,32256,No,0,,2.302,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:32,C:\file\sensitive\32ddb406e55a3dca31c3e366751a908e_1,application/vnd.ms-excel,24064,No,0,,0.709,成功,
+2025-03-18 01:05:32,C:\file\sensitive\20dfae5283f67e4d1a0de4038e78b4fe_1,application/msword,20482,No,0,,2.555,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:33,C:\file\sensitive\21a82f12303e533bd4109aeac97f582d_3,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,9449,No,0,,2.435,成功,
+2025-03-18 01:05:33,C:\file\sensitive\2c7e9d1b24e721cb77ea5d94c55b5565_1,application/vnd.ms-excel,12046336,No,2,成本(2处); 员工编号(1处),1.529,成功,
+2025-03-18 01:05:33,C:\file\sensitive\33e47f8bbe267f4cda2f0904477bda88_1,application/vnd.ms-excel,17920,No,0,,0.898,成功,
+2025-03-18 01:05:33,C:\file\sensitive\0bdc85825be1508721645599c15f338f_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,277664,No,2,预算(1处); 招聘(2处),3.829,成功,
