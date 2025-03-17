@@ -1123,6 +1123,7 @@ class FileProcessor:
                 'font/woff',                        # WOFF字体
                 'font/woff2',                       # WOFF2字体
                 'text/css',                         # CSS文件
+                'application/encrypted',
                 'text/javascript',                  # JS文件
                 'image/jpeg', 'image/png', 'image/gif', 'image/bmp', 'image/webp', 'image/svg+xml',  # 图片文件
                 'audio/mpeg', 'audio/wav',          # 音频文件

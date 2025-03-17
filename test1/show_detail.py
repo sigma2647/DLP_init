@@ -13,7 +13,7 @@ def get_mime_type(file_path):
     return mime.from_file(file_path)
 
 # 替换为您的文件路径
-file_path = r'C:\file\regular\0617bff7dcd1ec730625d4157e9077b6'
+file_path = r'C:\file\lab\5a769dd650897e7a54aaa1a41f9ddfd0_1'
 
 # 获取文件头和 MIME 类型
 header = get_file_header(file_path)
