@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+ai/data.db
+ai/data1.db
