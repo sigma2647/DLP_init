@@ -48,3 +48,15 @@
 2025-03-18 01:05:25,C:\file\sensitive\0caa8698bb00d4414a4980f4ad9fa190_1,application/msword,24064,No,0,,2.098,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
 2025-03-18 01:05:25,C:\file\sensitive\1628adb9417ae5c26a8af7db0ddd4737_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,12897,No,0,,1.567,成功,
 2025-03-18 01:05:26,C:\file\sensitive\0216b88921742da0097f5ceb40e0834e_1,application/msword,211381,No,0,,2.12,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:26,C:\file\sensitive\157e222a66b686a0d18f2638bc000e2d_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,9986,No,0,,1.59,成功,
+2025-03-18 01:05:26,C:\file\sensitive\11669d7325160a7442a9e3e91fc6d72a_1,application/msword,271165,No,0,,2.124,失败,Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:26,C:\file\sensitive\123e25d7545a6d437209474d8c728f67_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,13124,No,0,,1.904,成功,
+2025-03-18 01:05:26,C:\file\sensitive\2a96be9169a7b906f0a48e6a474e848a_1,application/vnd.ms-excel,155648,No,3,预算(2处); 简历(1处); 编制(1处),0.261,成功,
+2025-03-18 01:05:27,C:\file\sensitive\1883457007a78dcb418430d959fcf805_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,10062,No,0,,1.67,成功,
+2025-03-18 01:05:27,C:\file\sensitive\2da10ffd5e55e6043316020684a0537b_1,application/vnd.ms-excel,39424,No,1,预算(3处),0.2,成功,
+2025-03-18 01:05:27,C:\file\sensitive\206fcd663b5b31c90f41aa07efb98dc7_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,10187,No,1,贷款本金(1处),1.675,成功,
+2025-03-18 01:05:27,C:\file\sensitive\1c959065a26df6c34c9d3d5fe8f63251_1,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,13707,No,1,成本(6处),1.838,成功,
+2025-03-18 01:05:27,C:\file\sensitive\2dbd498e15f148056826443c48f12709_1,application/vnd.ms-excel,19456,No,1,预算(1处),0.568,成功,
+2025-03-18 01:05:28,C:\file\sensitive\2e9ec5d5b853f252ef2e2ea20df8883a_1,application/vnd.ms-excel,146944,No,0,,0.526,成功,
+2025-03-18 01:05:28,C:\file\sensitive\21a82f12303e533bd4109aeac97f582d,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,9449,No,0,,1.784,成功,
+2025-03-18 01:05:28,C:\file\sensitive\3075ea0c85c1d566e1c2f5dc072cdecf_1,application/vnd.ms-excel,38912,No,0,,0.553,成功,
