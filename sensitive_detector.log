@@ -4832,3 +4832,216 @@
 2025-03-18 01:05:28,396 - WARNING - 第 1 次尝试处理 C:\file\sensitive\42fa4c25bd14c8be4c37032a6aeef9c6_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
 2025-03-18 01:05:28,399 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\43d70b18157aa79dc7ad6d9d3837ff42_1
 2025-03-18 01:05:28,469 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\430fe63d5dfc434ed3dc68d9cea9db17_1
+2025-03-18 01:05:28,852 - INFO - 无扩展名文件检测为PowerPoint演示文稿: C:\file\sensitive\43fbcd27320758e93104f9baf3adec3f_1
+2025-03-18 01:05:28,963 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\441ea660a19f43e4aa99c683794eaa2f_1
+2025-03-18 01:05:29,003 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\44a353e81e0d43e3cc5ba290111ad18c_1
+2025-03-18 01:05:29,226 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\451be3b3ef617b49e1157c1b14159d68
+2025-03-18 01:05:29,286 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\458078c6a1abc59a12a853735ccfe686_1
+2025-03-18 01:05:29,317 - INFO - 无扩展名文件检测为Word文档: C:\file\sensitive\44afad5db18131e6ec6d5ee96b283ea4_1
+2025-03-18 01:05:29,467 - WARNING - 第 2 次尝试处理 C:\file\sensitive\42fa4c25bd14c8be4c37032a6aeef9c6_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:29,592 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\47cbe50f60461ebdc5f55c110c4daee1_1
+2025-03-18 01:05:29,769 - INFO - 无扩展名文件检测为Word文档: C:\file\sensitive\47f26fb13d9713afa39f4803af8b492d_1
+2025-03-18 01:05:29,814 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\483e8c6497c84734a0155f18fd71493c_1
+2025-03-18 01:05:29,963 - INFO - 处理 DOC 文件: C:\file\sensitive\483e8c6497c84734a0155f18fd71493c_1
+2025-03-18 01:05:30,007 - WARNING - 第 1 次尝试处理 C:\file\sensitive\483e8c6497c84734a0155f18fd71493c_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:30,188 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\487646a4f900bfa13bbdf528be0ed2e6_1
+2025-03-18 01:05:30,435 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4884e882f6286014a2b9e1360edbcb62_1
+2025-03-18 01:05:30,575 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\42fa4c25bd14c8be4c37032a6aeef9c6_1
+2025-03-18 01:05:30,578 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\48f20bd88945503d9979bdfa0ffc0e77_1
+2025-03-18 01:05:30,640 - WARNING - 提取内容失败: C:\file\sensitive\42fa4c25bd14c8be4c37032a6aeef9c6_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:30,960 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\49a40abd0e8103ad6a6d276ef3615140_1
+2025-03-18 01:05:31,012 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4c5669dfced38f0446ccc1dec0c90ec5_1
+2025-03-18 01:05:31,021 - WARNING - 第 2 次尝试处理 C:\file\sensitive\483e8c6497c84734a0155f18fd71493c_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:31,124 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4dc64937c4202abdc64caead391795ca_1
+2025-03-18 01:05:31,127 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4b46e27f63cd467d7b82a1268fe6d4f1_1
+2025-03-18 01:05:31,175 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\49e090df6cba51e37cf69d48fba652ef_2
+2025-03-18 01:05:31,188 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\49e090df6cba51e37cf69d48fba652ef
+2025-03-18 01:05:31,214 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4cbb8b25f89bbc51d8e525a0f40e98b9_1
+2025-03-18 01:05:31,633 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\4ddc8e7248000d985205fcd639353875_1
+2025-03-18 01:05:31,743 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4df984722e0695eb09d5f1d1aa27d8d1_1
+2025-03-18 01:05:31,809 - INFO - 处理PPT文件: C:\file\sensitive\4df984722e0695eb09d5f1d1aa27d8d1_1
+2025-03-18 01:05:31,871 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\4e4ecc80a1bc943bb1365d96cdb868db_1
+2025-03-18 01:05:32,132 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\483e8c6497c84734a0155f18fd71493c_1
+2025-03-18 01:05:32,138 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\4e4f45f00d526aae0323f8e0c26a6493
+2025-03-18 01:05:32,139 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\4e4f45f00d526aae0323f8e0c26a6493_2
+2025-03-18 01:05:32,139 - WARNING - 提取内容失败: C:\file\sensitive\483e8c6497c84734a0155f18fd71493c_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:32,223 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\51c594cc7de6e95f09a4b2a3e7b33ca4_1
+2025-03-18 01:05:32,227 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\4f599a2ba8d3edcb501bbc0b8e3795b6_1
+2025-03-18 01:05:32,227 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\4f6eb1125a2d52a4dc993797073c1736_1
+2025-03-18 01:05:32,370 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\516e65d0ea05e0e689d5be98c9ef6e9d_1
+2025-03-18 01:05:32,440 - INFO - 处理 DOC 文件: C:\file\sensitive\51c594cc7de6e95f09a4b2a3e7b33ca4_1
+2025-03-18 01:05:32,440 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\5249eff2bbdc4d69494e647649a2f44c_1
+2025-03-18 01:05:32,568 - WARNING - 第 1 次尝试处理 C:\file\sensitive\51c594cc7de6e95f09a4b2a3e7b33ca4_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:32,601 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5233d2352f260d4ba290711c960ac9c0_1
+2025-03-18 01:05:32,840 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\52cf0849cc6ce62ab6346909c0251ced_1
+2025-03-18 01:05:32,885 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\52ec05d782df76fae5403b4d470fd4b2_1
+2025-03-18 01:05:33,071 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\530eb7b40c64898d965054469df1d7bc_1
+2025-03-18 01:05:33,513 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\53bca0c1815b955c5cab1cc431cc68e7_1
+2025-03-18 01:05:33,513 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\532c89dcc4a7b01d0b157425c057fcdf_1
+2025-03-18 01:05:33,718 - INFO - 处理 DOC 文件: C:\file\sensitive\532c89dcc4a7b01d0b157425c057fcdf_1
+2025-03-18 01:05:33,722 - WARNING - 第 1 次尝试处理 C:\file\sensitive\532c89dcc4a7b01d0b157425c057fcdf_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:33,731 - WARNING - 第 2 次尝试处理 C:\file\sensitive\51c594cc7de6e95f09a4b2a3e7b33ca4_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:33,761 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\545ef663d4395cf29314f8311f7a4bc0_1
+2025-03-18 01:05:33,765 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5410bab12ffd80b463acc7419f8f2d67_1
+2025-03-18 01:05:34,248 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5471e090db5819c76b7348c195334b17_1
+2025-03-18 01:05:34,832 - WARNING - 第 2 次尝试处理 C:\file\sensitive\532c89dcc4a7b01d0b157425c057fcdf_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:34,833 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\51c594cc7de6e95f09a4b2a3e7b33ca4_1
+2025-03-18 01:05:34,976 - WARNING - 提取内容失败: C:\file\sensitive\51c594cc7de6e95f09a4b2a3e7b33ca4_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:35,106 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\5581616c33e0ffa7cbc550dbdd45d7eb_1
+2025-03-18 01:05:35,199 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\56c186b68ebf416fcbf462e021480d2d_1
+2025-03-18 01:05:35,200 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\56a69f85e11c9e979ba56973333c6752_1
+2025-03-18 01:05:35,243 - INFO - 无扩展名文件检测为PowerPoint演示文稿: C:\file\sensitive\54a23d80b7323576d2352ea97a7f4819_1
+2025-03-18 01:05:35,390 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\586ec919d576ebd0615b79cbea452725_1
+2025-03-18 01:05:35,477 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\58e4e3fe91342a9b0f3869dc7b125a1a_1
+2025-03-18 01:05:35,704 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\59766e62c0cdb381f2041e89415d6761_1
+2025-03-18 01:05:35,728 - INFO - 处理 DOC 文件: C:\file\sensitive\58e4e3fe91342a9b0f3869dc7b125a1a_1
+2025-03-18 01:05:35,833 - WARNING - 第 1 次尝试处理 C:\file\sensitive\58e4e3fe91342a9b0f3869dc7b125a1a_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:35,897 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\532c89dcc4a7b01d0b157425c057fcdf_1
+2025-03-18 01:05:35,912 - WARNING - 提取内容失败: C:\file\sensitive\532c89dcc4a7b01d0b157425c057fcdf_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:35,991 - INFO - 识别为无需处理的文件类型，跳过内容提取: C:\file\sensitive\5a769dd650897e7a54aaa1a41f9ddfd0_1 (type: application/encrypted, header: D0CF11E0A1B11AE10000000000000000)
+2025-03-18 01:05:36,146 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\59fcf5d9eafae82b68ca6e598a6d2d52_1
+2025-03-18 01:05:36,176 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\5b627396cb25f0b94c0d1b779b88e53e_1
+2025-03-18 01:05:36,222 - INFO - 处理 DOC 文件: C:\file\sensitive\59fcf5d9eafae82b68ca6e598a6d2d52_1
+2025-03-18 01:05:36,238 - INFO - 无扩展名文件检测为Word文档: C:\file\sensitive\59e62c65aa93dd4ba2debcc9a8dd722c_1
+2025-03-18 01:05:36,238 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\5bb60aceaee9e6d4744c1aba5d2511a5_1
+2025-03-18 01:05:36,268 - WARNING - 第 1 次尝试处理 C:\file\sensitive\59fcf5d9eafae82b68ca6e598a6d2d52_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:36,315 - INFO - 处理 DOC 文件: C:\file\sensitive\5b627396cb25f0b94c0d1b779b88e53e_1
+2025-03-18 01:05:36,487 - WARNING - 第 1 次尝试处理 C:\file\sensitive\5b627396cb25f0b94c0d1b779b88e53e_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:36,489 - INFO - 处理 DOC 文件: C:\file\sensitive\5bb60aceaee9e6d4744c1aba5d2511a5_1
+2025-03-18 01:05:36,532 - WARNING - 第 1 次尝试处理 C:\file\sensitive\5bb60aceaee9e6d4744c1aba5d2511a5_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:36,689 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5bf5b2cdaa8549c8bc38e0a74a8b7b47_1
+2025-03-18 01:05:36,909 - WARNING - 第 2 次尝试处理 C:\file\sensitive\58e4e3fe91342a9b0f3869dc7b125a1a_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:37,159 - INFO - 无扩展名文件检测为PowerPoint演示文稿: C:\file\sensitive\5c432168f0f73505b51d7bab5a6426e3_1
+2025-03-18 01:05:37,487 - WARNING - 第 2 次尝试处理 C:\file\sensitive\59fcf5d9eafae82b68ca6e598a6d2d52_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:37,487 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5ceaecd074ee7517bb3b4d3d574f5efb_1
+2025-03-18 01:05:37,501 - WARNING - 第 2 次尝试处理 C:\file\sensitive\5b627396cb25f0b94c0d1b779b88e53e_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:37,505 - INFO - 无扩展名文件检测为PowerPoint演示文稿: C:\file\sensitive\5ccde6b3a22a0f2634881e330792b921_1
+2025-03-18 01:05:37,517 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5eae6988e804e70bbde1a365a7fa315e_1
+2025-03-18 01:05:37,541 - WARNING - 第 2 次尝试处理 C:\file\sensitive\5bb60aceaee9e6d4744c1aba5d2511a5_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:37,561 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5f1040a6bfa07fd9b0246fd20773d306_1
+2025-03-18 01:05:37,571 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\5f71bc941b00b91bfcc0bf735760f3ed_1
+2025-03-18 01:05:37,817 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\5fff70120b98ec7648dd292d90745dfb_1
+2025-03-18 01:05:37,858 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\601d3cb4d18b5177231092d643d9e0a3_1
+2025-03-18 01:05:37,935 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6070b451d1a564d1f09c7cfbeb39eef0_1
+2025-03-18 01:05:37,971 - INFO - 处理 DOC 文件: C:\file\sensitive\601d3cb4d18b5177231092d643d9e0a3_1
+2025-03-18 01:05:37,983 - WARNING - 第 1 次尝试处理 C:\file\sensitive\601d3cb4d18b5177231092d643d9e0a3_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:38,029 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\58e4e3fe91342a9b0f3869dc7b125a1a_1
+2025-03-18 01:05:38,070 - WARNING - 提取内容失败: C:\file\sensitive\58e4e3fe91342a9b0f3869dc7b125a1a_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:38,183 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\60e1f37eff46db9dc2575b2d2a80b21b_1
+2025-03-18 01:05:38,247 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\60d60d6ec91feda873e83b8071f031f8_1
+2025-03-18 01:05:38,297 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\61e5a5fef920d9fa3bd06e01d52080a8_1
+2025-03-18 01:05:38,325 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\629926cb814bc3f06828a39a8333d172_1
+2025-03-18 01:05:38,341 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\62497e518318534fd13efe6c76394ee9_1
+2025-03-18 01:05:38,496 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\59fcf5d9eafae82b68ca6e598a6d2d52_1
+2025-03-18 01:05:38,496 - WARNING - 提取内容失败: C:\file\sensitive\59fcf5d9eafae82b68ca6e598a6d2d52_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:38,501 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\644c901821bb53c0f2c62ed3b69cbdd9_1
+2025-03-18 01:05:38,532 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\5b627396cb25f0b94c0d1b779b88e53e_1
+2025-03-18 01:05:38,538 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6829b1730249f50835559968f52d748a_1
+2025-03-18 01:05:38,539 - INFO - 无扩展名文件检测为PowerPoint演示文稿: C:\file\sensitive\66995a2e7291f8b0552c12f6acb85908_1
+2025-03-18 01:05:38,549 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\68dadd3caf442c89a0718be852ed4609_1
+2025-03-18 01:05:38,558 - WARNING - 提取内容失败: C:\file\sensitive\5b627396cb25f0b94c0d1b779b88e53e_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:38,558 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\5bb60aceaee9e6d4744c1aba5d2511a5_1
+2025-03-18 01:05:38,590 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6968496697da3529c3510fb51828f55d_1
+2025-03-18 01:05:38,592 - WARNING - 提取内容失败: C:\file\sensitive\5bb60aceaee9e6d4744c1aba5d2511a5_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:38,655 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\69d84b5561708596492746408ad7fa53_1
+2025-03-18 01:05:38,677 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6af6e8a186c84129bf13e7015dd1b66c_1
+2025-03-18 01:05:38,777 - INFO - 处理 DOC 文件: C:\file\sensitive\6af6e8a186c84129bf13e7015dd1b66c_1
+2025-03-18 01:05:38,783 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\6b17ec37ff79b065c202650f78a726c1
+2025-03-18 01:05:38,784 - WARNING - 第 1 次尝试处理 C:\file\sensitive\6af6e8a186c84129bf13e7015dd1b66c_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:38,839 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\6b17ec37ff79b065c202650f78a726c1_2
+2025-03-18 01:05:38,850 - INFO - 无扩展名文件检测为Word文档: C:\file\sensitive\6968736526106d7f5de55e85802ba3f9_1
+2025-03-18 01:05:38,904 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\6bed926e75dd9f686d587a36385de35c_1
+2025-03-18 01:05:39,104 - WARNING - 第 2 次尝试处理 C:\file\sensitive\601d3cb4d18b5177231092d643d9e0a3_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:39,130 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6ca1613bcf044b3687f20540517a6999_1
+2025-03-18 01:05:39,334 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6cb424a5948f65c9a62edc8e34b775c8_1
+2025-03-18 01:05:39,437 - INFO - 处理 DOC 文件: C:\file\sensitive\6ca1613bcf044b3687f20540517a6999_1
+2025-03-18 01:05:39,458 - WARNING - 第 1 次尝试处理 C:\file\sensitive\6ca1613bcf044b3687f20540517a6999_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:39,836 - WARNING - 第 2 次尝试处理 C:\file\sensitive\6af6e8a186c84129bf13e7015dd1b66c_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:40,255 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\601d3cb4d18b5177231092d643d9e0a3_1
+2025-03-18 01:05:40,300 - WARNING - 提取内容失败: C:\file\sensitive\601d3cb4d18b5177231092d643d9e0a3_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:40,339 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\6cec25c559bba32015ef3f033ff6abd6_1
+2025-03-18 01:05:40,503 - WARNING - 第 2 次尝试处理 C:\file\sensitive\6ca1613bcf044b3687f20540517a6999_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:40,550 - INFO - 无扩展名文件检测为Word文档: C:\file\sensitive\6cbf19f3d68da8996594861f7bae12a1_1
+2025-03-18 01:05:40,569 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6dce69113ea2feb9c7e99c3de2515b48_1
+2025-03-18 01:05:40,688 - INFO - 处理 DOC 文件: C:\file\sensitive\6dce69113ea2feb9c7e99c3de2515b48_1
+2025-03-18 01:05:40,693 - WARNING - 第 1 次尝试处理 C:\file\sensitive\6dce69113ea2feb9c7e99c3de2515b48_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:40,925 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\6af6e8a186c84129bf13e7015dd1b66c_1
+2025-03-18 01:05:41,057 - WARNING - 提取内容失败: C:\file\sensitive\6af6e8a186c84129bf13e7015dd1b66c_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:41,557 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\6ca1613bcf044b3687f20540517a6999_1
+2025-03-18 01:05:41,568 - WARNING - 提取内容失败: C:\file\sensitive\6ca1613bcf044b3687f20540517a6999_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:41,724 - WARNING - 第 2 次尝试处理 C:\file\sensitive\6dce69113ea2feb9c7e99c3de2515b48_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:41,837 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\6ec9115169e08bb61c47afad2e146565_1
+2025-03-18 01:05:41,903 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6edf854c4ad2a25be45c7c45996f9f18_1
+2025-03-18 01:05:42,168 - INFO - 处理 DOC 文件: C:\file\sensitive\6edf854c4ad2a25be45c7c45996f9f18_1
+2025-03-18 01:05:42,492 - WARNING - 第 1 次尝试处理 C:\file\sensitive\6edf854c4ad2a25be45c7c45996f9f18_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:42,708 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6f07be87cc32aaf1fe5aa5c64d1d1adb_1
+2025-03-18 01:05:42,785 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\6dce69113ea2feb9c7e99c3de2515b48_1
+2025-03-18 01:05:42,948 - WARNING - 提取内容失败: C:\file\sensitive\6dce69113ea2feb9c7e99c3de2515b48_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:43,027 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\6f91c2cdb3c72ea965e4f60a5e287aea_1
+2025-03-18 01:05:43,088 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6f083ba5d8ac8909cf6ba1d7bda296d3_1
+2025-03-18 01:05:43,094 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\6fd810f5ff5dbc12c96f9d7610364d80_1
+2025-03-18 01:05:43,214 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\715b772d13a335181299144bb48d8e22_1
+2025-03-18 01:05:43,379 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\718fbdeebeafe3652438cf201224cad6_1
+2025-03-18 01:05:43,405 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\715dd400de42421dd2cab4db9cbd1839_1
+2025-03-18 01:05:43,426 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\724a9da67424ff3d9bb246e25f20e930
+2025-03-18 01:05:43,527 - INFO - 处理 DOC 文件: C:\file\sensitive\718fbdeebeafe3652438cf201224cad6_1
+2025-03-18 01:05:43,542 - WARNING - 第 1 次尝试处理 C:\file\sensitive\718fbdeebeafe3652438cf201224cad6_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:43,550 - WARNING - 第 2 次尝试处理 C:\file\sensitive\6edf854c4ad2a25be45c7c45996f9f18_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:43,746 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\72981539429c388ab24dff97838fdbf8_1
+2025-03-18 01:05:43,857 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\724a9da67424ff3d9bb246e25f20e930_2
+2025-03-18 01:05:43,892 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\72c25140e879b507ae0980fe4ed3c519_1
+2025-03-18 01:05:44,005 - WARNING - 提取内容失败: C:\file\sensitive\72981539429c388ab24dff97838fdbf8_1 - MIME: application/vnd.ms-excel - 错误: Excel处理失败: Workbook is encrypted，类型: XLRDError
+2025-03-18 01:05:44,051 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\72e6e70de4dc53ad4d192a251e5697f6_1
+2025-03-18 01:05:44,148 - INFO - 处理 DOC 文件: C:\file\sensitive\72e6e70de4dc53ad4d192a251e5697f6_1
+2025-03-18 01:05:44,148 - WARNING - 第 1 次尝试处理 C:\file\sensitive\72e6e70de4dc53ad4d192a251e5697f6_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:44,566 - WARNING - 第 2 次尝试处理 C:\file\sensitive\718fbdeebeafe3652438cf201224cad6_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:44,616 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\73bb5ba5565ea996bdcacc740abeec10_1
+2025-03-18 01:05:44,883 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\6edf854c4ad2a25be45c7c45996f9f18_1
+2025-03-18 01:05:44,885 - WARNING - 提取内容失败: C:\file\sensitive\6edf854c4ad2a25be45c7c45996f9f18_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:44,916 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\73381f3c418eb612855731194de061d8_1
+2025-03-18 01:05:44,956 - INFO - 处理 DOC 文件: C:\file\sensitive\73bb5ba5565ea996bdcacc740abeec10_1
+2025-03-18 01:05:45,067 - WARNING - 第 1 次尝试处理 C:\file\sensitive\73bb5ba5565ea996bdcacc740abeec10_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:45,109 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\759fa7c5b297e1f849537efb6fa0708d_1
+2025-03-18 01:05:45,158 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\76c41956eb477d9283b025cab8553af9_1
+2025-03-18 01:05:45,177 - WARNING - 第 2 次尝试处理 C:\file\sensitive\72e6e70de4dc53ad4d192a251e5697f6_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:45,177 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\7796d1975baa4efeb4c29a8658893153_1
+2025-03-18 01:05:45,183 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\765815b0b20170a2e7b74169bd74b0a9_1
+2025-03-18 01:05:45,215 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\74a45318b15b698d76ab9112a2bfe4af_1
+2025-03-18 01:05:45,233 - INFO - 处理 DOC 文件: C:\file\sensitive\759fa7c5b297e1f849537efb6fa0708d_1
+2025-03-18 01:05:45,240 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\78165e7748a2ebfebaca078a12ad4a91_1
+2025-03-18 01:05:45,243 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\77b70a161bfd207a50b1b1d707fbe313_1
+2025-03-18 01:05:45,285 - WARNING - 第 1 次尝试处理 C:\file\sensitive\759fa7c5b297e1f849537efb6fa0708d_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:45,291 - INFO - 处理 DOC 文件: C:\file\sensitive\7796d1975baa4efeb4c29a8658893153_1
+2025-03-18 01:05:45,599 - WARNING - 第 1 次尝试处理 C:\file\sensitive\7796d1975baa4efeb4c29a8658893153_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:45,614 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\718fbdeebeafe3652438cf201224cad6_1
+2025-03-18 01:05:45,615 - INFO - 处理 DOC 文件: C:\file\sensitive\78165e7748a2ebfebaca078a12ad4a91_1
+2025-03-18 01:05:45,636 - WARNING - 提取内容失败: C:\file\sensitive\718fbdeebeafe3652438cf201224cad6_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:45,652 - WARNING - 第 1 次尝试处理 C:\file\sensitive\78165e7748a2ebfebaca078a12ad4a91_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:45,718 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\7822e1116c9c68f1c95a447342711ea6_1
+2025-03-18 01:05:45,870 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\785ace979a158cde05cc8d65f3cf0187_1
+2025-03-18 01:05:45,877 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\785ace979a158cde05cc8d65f3cf0187
+2025-03-18 01:05:45,939 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\785ace979a158cde05cc8d65f3cf0187_3
+2025-03-18 01:05:46,111 - WARNING - 第 2 次尝试处理 C:\file\sensitive\73bb5ba5565ea996bdcacc740abeec10_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:46,353 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\72e6e70de4dc53ad4d192a251e5697f6_1
+2025-03-18 01:05:46,389 - WARNING - 提取内容失败: C:\file\sensitive\72e6e70de4dc53ad4d192a251e5697f6_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:46,567 - INFO - 无扩展名文件检测为PowerPoint演示文稿: C:\file\sensitive\79e6c8174046c40058216d694cad4944_1
+2025-03-18 01:05:46,575 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\7a90aedf24209fc1e209f702a3cb4ee2_1
+2025-03-18 01:05:46,594 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\79301ba752401d530d558dbf1fbef16e_1
+2025-03-18 01:05:46,596 - WARNING - 第 2 次尝试处理 C:\file\sensitive\759fa7c5b297e1f849537efb6fa0708d_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:46,626 - WARNING - 第 2 次尝试处理 C:\file\sensitive\7796d1975baa4efeb4c29a8658893153_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:46,643 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\78b95848ae6cade48c483d9f1ac819bd_1
+2025-03-18 01:05:46,737 - WARNING - 第 2 次尝试处理 C:\file\sensitive\78165e7748a2ebfebaca078a12ad4a91_1 失败: 'NoneType' object has no attribute 'Documents', 重试中...
+2025-03-18 01:05:47,392 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\73bb5ba5565ea996bdcacc740abeec10_1
+2025-03-18 01:05:47,469 - WARNING - 提取内容失败: C:\file\sensitive\73bb5ba5565ea996bdcacc740abeec10_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:47,689 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\759fa7c5b297e1f849537efb6fa0708d_1
+2025-03-18 01:05:47,690 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\7796d1975baa4efeb4c29a8658893153_1
+2025-03-18 01:05:47,746 - WARNING - 提取内容失败: C:\file\sensitive\759fa7c5b297e1f849537efb6fa0708d_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:48,110 - ERROR - Win32COM 处理失败: 'NoneType' object has no attribute 'Documents' - 文件: C:\file\sensitive\78165e7748a2ebfebaca078a12ad4a91_1
+2025-03-18 01:05:48,121 - WARNING - 提取内容失败: C:\file\sensitive\7796d1975baa4efeb4c29a8658893153_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:48,435 - WARNING - 提取内容失败: C:\file\sensitive\78165e7748a2ebfebaca078a12ad4a91_1 - MIME: application/msword - 错误: Win32COM 处理失败: 'NoneType' object has no attribute 'Documents'
+2025-03-18 01:05:48,730 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\7b5bc886f76adc5a81d3fc0e03a7d418_1
+2025-03-18 01:05:48,738 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\7acc553ef3bfe17eaee935fa6cc199bd_1
+2025-03-18 01:05:48,781 - INFO - 无扩展名文件检测为旧版Office文档: C:\file\sensitive\7ad910f91ad6f3a1c013c058bc8c28dc_1
+2025-03-18 01:05:48,938 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\7c0a4d927a860c91f783b71ebd71f793_1
+2025-03-18 01:05:48,957 - INFO - 无扩展名文件检测为Excel工作簿: C:\file\sensitive\7b2b800e9c806893eabcbd66cba6c5f6_1
+2025-03-18 01:05:48,974 - INFO - 无扩展名文件检测为Word文档: C:\file\sensitive\7b0913a213f0bdc370c71777abe203bf_1
