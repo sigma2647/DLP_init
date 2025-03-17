@@ -684,62 +684,126 @@ class ContentExtractor:
             pythoncom.CoUninitialize()
     
     def extract_content(self, file_path: str, mime_type: str) -> Dict[str, Any]:
-        print(f"Extracting content for: {file_path}, MIME: {mime_type}")  # 打印提取开始
+        """提取文件内容，增强版本可以处理无扩展名文件并容错"""
         if not Path(file_path).exists():
-            print(f"File does not exist: {file_path}")
             return {'error': f'文件不存在: {file_path}', 'content': '', 'metadata': {}}
         
         if Path(file_path).stat().st_size == 0:
-            print(f"File is empty: {file_path}")
             return self._create_empty_result(mime_type)
         
+        # 检查文件扩展名
+        ext = Path(file_path).suffix.lower()
+        
+        # 对无扩展名文件特殊处理
+        if not ext:
+            # 优先根据MIME类型判断是否应该跳过
+            if mime_type.startswith(('image/', 'audio/', 'video/', 'font/')) or mime_type == 'application/octet-stream':
+                return self._create_error_result(mime_type, f"无扩展名文件, MIME类型 {mime_type} 不支持处理, 跳过")
+            
+            # 获取文件头部以辅助判断
+            try:
+                with open(file_path, 'rb') as f:
+                    header = f.read(8).hex().upper()
+                
+                # 检查常见二进制文件头
+                binary_headers = {
+                    "FFD8FF": "image/jpeg",     # JPEG
+                    "89504E47": "image/png",    # PNG
+                    "47494638": "image/gif",    # GIF
+                    "D0CF11E0": "application/msoffice", # MS Office
+                    "504B0304": "archive/zip",  # ZIP/Office XML
+                    "25504446": "application/pdf", # PDF
+                    "7F454C46": "application/elf", # ELF
+                    "4D5A": "application/exe"   # EXE
+                }
+                
+                for sig, sig_type in binary_headers.items():
+                    if header.startswith(sig):
+                        return self._create_error_result(sig_type, f"无扩展名文件, 检测为 {sig_type}, 跳过处理")
+            except:
+                pass
+                
+            # 如果看起来是文本文件，尝试直接读取内容
+            try:
+                with open(file_path, 'rb') as f:
+                    sample = f.read(1024)
+                
+                # 检查是否是可能的文本文件
+                is_text = True
+                for byte in sample:
+                    # 检查是否包含控制字符（排除制表符、换行符等）
+                    if byte < 32 and byte not in (9, 10, 13):
+                        is_text = False
+                        break
+                
+                if is_text:
+                    return self._extract_text_content(file_path)
+            except:
+                pass
+            
+            # 最后的保险措施 - 无法确定类型，直接跳过
+            return self._create_error_result(mime_type, "无扩展名且无法确定类型的文件, 跳过处理")
+        
+        # 检查加密文件
         if mime_type == "application/encrypted":
-            print(f"Encrypted file, skipping: {file_path}")
             return self._create_error_result(mime_type, "加密文件，跳过处理")
         
+        # 预检查文件类型
         is_valid, error_msg = self._precheck_file_type(file_path, mime_type)
         if not is_valid:
             file_header = self._get_file_header(file_path)
-            print(f"Precheck failed: {file_path}, Error: {error_msg}")
             return {
                 'content': '',
                 'metadata': {'file_type': mime_type, 'file_header': file_header},
                 'error': f"预检查失败: {error_msg}"
             }
         
-        ext = Path(file_path).suffix.lower()
+        # 跳过已知不支持的格式
+        unsupported_extensions = ['.ttf', '.otf', '.woff', '.woff2', '.eot', '.bin', 
+                                 '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.ico', '.svg',
+                                 '.mp3', '.wav', '.mp4', '.avi', '.mov', '.flv', '.mkv',
+                                 '.exe', '.dll', '.sys', '.obj', '.lib', '.o']
+        
+        if ext in unsupported_extensions:
+            return self._create_error_result(mime_type, f"不支持的文件扩展名: {ext}, 跳过处理")
+        
+        # 跳过特定MIME类型
+        unsupported_mimes = ['image/vnd.dwg', 'application/octet-stream', 'font/ttf', 'font/otf',
+                             'application/x-msdownload', 'application/x-executable']
+                             
+        if mime_type in unsupported_mimes or mime_type.startswith(('image/', 'audio/', 'video/', 'font/')):
+            return self._create_error_result(mime_type, f"不支持的MIME类型: {mime_type}, 跳过处理")
+        
+        # 使用特定的提取器处理
         if mime_type in (self.MIME_TYPE['XLSX'], self.MIME_TYPE['DOCX'], self.MIME_TYPE['PPTX']) or \
            ext in ('.xlsx', '.xlsm', '.xltx', '.xltm', '.docx', '.pptx'):
-            print(f"Using specific extractor for: {file_path}")
             return self.extractors[mime_type](file_path)
         elif self.is_windows and (mime_type in (self.MIME_TYPE['DOC'], self.MIME_TYPE['PPT'], self.MIME_TYPE['XLS']) or \
            ext in ('.doc', '.ppt', '.xls', '.xlt')):
-            print(f"Using Windows-specific extractor for: {file_path}")
             return self.extractors[mime_type](file_path)
         
         if mime_type in self.extractors:
-            print(f"Using registered extractor for: {file_path}")
             return self.extractors[mime_type](file_path)
         
-        # 尝试使用 MarkItDown 转换，捕获异常
+        # 尝试使用MarkItDown，增强错误处理
         if self.md is not None:
             try:
-                print(f"Attempting MarkItDown conversion for: {file_path}")
                 result = self.md.convert(file_path)
-                print(f"MarkItDown conversion succeeded for: {file_path}")
                 return {
                     'content': result.text_content,
                     'metadata': {'file_type': mime_type, 'converter': 'markitdown'},
                     'error': None
                 }
             except Exception as e:
-                error_msg = f"MarkItDown转换失败: {str(e)} - 跳过"
-                print(f"MarkItDown failed: {file_path}, Error: {error_msg}")
-                return self._create_error_result(mime_type, error_msg)
+                # 特别处理UnsupportedFormatException
+                if "UnsupportedFormatException" in str(e) or "not supported" in str(e):
+                    return self._create_error_result(
+                        mime_type, 
+                        f"不支持的文件格式: {str(e).split('formats ')[-1] if 'formats ' in str(e) else ext or mime_type}, 跳过处理"
+                    )
+                return self._create_error_result(mime_type, f"转换文件失败: {str(e)}, 跳过处理")
         else:
-            error_msg = "MarkItDown 不可用，跳过处理"
-            print(f"MarkItDown unavailable: {file_path}, Error: {error_msg}")
-            return self._create_error_result(mime_type, error_msg)
+            return self._create_error_result(mime_type, "MarkItDown 不可用，跳过处理")
 
 class SensitiveChecker:
     """敏感内容检查器，使用正则表达式替代 Aho-Corasick"""
@@ -994,32 +1058,57 @@ class FileProcessor:
         try:
             mime_type = self._mime_cache.get(file_path) or self.detector.detect_file_type(file_path)
             ext = Path(file_path).suffix.lower()
-            print(f"Processing file: {file_path}, Extension: {ext}, MIME: {mime_type}")  # 打印文件信息
             
-            file_size = self._file_size_cache.get(file_path, 0)
+            # 检查文件头部以辅助判断文件类型
+            file_header = ""
+            try:
+                with open(file_path, 'rb') as f:
+                    file_header = f.read(16).hex().upper()
+            except Exception:
+                pass
             
-            # 定义常规文件的条件
+            # 扩展不支持处理的MIME类型列表
+            skip_mime_types = [
+                'image/vnd.dwg',                    # DWG图纸文件
+                'application/octet-stream',         # 二进制文件
+                'application/x-msdownload',         # 可执行文件
+                'application/font-sfnt',            # 字体文件
+                'font/ttf',                         # TTF字体
+                'font/otf',                         # OTF字体
+                'font/woff',                        # WOFF字体
+                'font/woff2',                       # WOFF2字体
+                'text/css',                         # CSS文件
+                'text/javascript',                  # JS文件
+                'image/jpeg', 'image/png', 'image/gif', 'image/bmp', 'image/webp', 'image/svg+xml',  # 图片文件
+                'audio/mpeg', 'audio/wav',          # 音频文件
+                'video/mp4', 'video/x-msvideo', 'video/quicktime'  # 视频文件
+            ]
+            
+            # 扩展不支持的MIME类型前缀
+            skip_mime_prefixes = ['font/', 'image/', 'audio/', 'video/']
+            
+            # 定义常规文件的条件 - 不再主要依赖文件扩展名
             regular_file_conditions = (
-                mime_type == 'image/vnd.dwg' or           # .dwg 文件（即使无后缀）
-                mime_type == 'application/octet-stream' or # 无法识别的文件
-                ext in self.detector.SKIP_EXTENSIONS       # 已定义的跳过扩展名
+                mime_type in skip_mime_types or
+                any(mime_type.startswith(prefix) for prefix in skip_mime_prefixes) or
+                (ext and ext in self.detector.SKIP_EXTENSIONS)
             )
             
             if regular_file_conditions:
-                logger.info(f"识别为常规文件，跳过内容提取: {file_path} (type: {mime_type})")
-                print(f"Skipping as regular file: {file_path}")  # 确认跳过
+                logger.info(f"识别为无需处理的文件类型，跳过内容提取: {file_path} (type: {mime_type}, header: {file_header})")
                 return ProcessingResult(
                     file_path=file_path,
                     mime_type=mime_type,
-                    content={'content': '', 'metadata': {'file_type': 'regular'}, 'skipped': True},
+                    content={'content': '', 'metadata': {'file_type': 'regular', 'file_header': file_header}, 'skipped': True},
                     sensitive_words=[],
                     error=None,
                     processing_time=time.time() - start_time
                 )
             
+            # 检查文件是否为空
+            file_size = self._file_size_cache.get(file_path, 0) or os.path.getsize(file_path)
             if file_size == 0:
                 logger.info(f"空文件，跳过: {file_path}")
-                print(f"Skipping empty file: {file_path}")
                 return ProcessingResult(
                     file_path=file_path,
                     mime_type=mime_type,
@@ -1029,10 +1118,23 @@ class FileProcessor:
                     processing_time=time.time() - start_time
                 )
             
+            # 处理内容的其余部分保持不变
             content = self.extractor.extract_content(file_path, mime_type)
-            if content.get('error'):
+            
+            # 检查提取是否失败
+            if content.get('error') and "UnsupportedFormatException" in content.get('error'):
+                # 如果是不支持的格式，标记为跳过
+                logger.info(f"不支持的文件格式，标记为跳过: {file_path} (type: {mime_type})")
+                return ProcessingResult(
+                    file_path=file_path,
+                    mime_type=mime_type,
+                    content={'content': '', 'metadata': {'file_type': 'unsupported'}, 'skipped': True},
+                    sensitive_words=[],
+                    error=content.get('error'),
+                    processing_time=time.time() - start_time
+                )
+            elif content.get('error'):
                 logger.warning(f"提取内容失败: {file_path} - MIME: {mime_type} - 错误: {content.get('error')}")
-                print(f"Content extraction failed: {file_path}, Error: {content.get('error')}")
                 return ProcessingResult(
                     file_path=file_path,
                     mime_type=mime_type,
@@ -1044,7 +1146,6 @@ class FileProcessor:
             
             sensitive_result = self.checker.check_content(content.get('content', ''))
             sensitive_words = sensitive_result
-            print(f"Processed successfully: {file_path}, Sensitive words: {len(sensitive_words)} found")
             
             return ProcessingResult(
                 file_path=file_path,
@@ -1057,7 +1158,6 @@ class FileProcessor:
         except Exception as e:
             error_msg = f"处理文件失败: {str(e)}"
             logger.error(f"{error_msg} - {file_path}")
-            print(f"Error occurred: {file_path}, Message: {error_msg}")  # 打印错误
             return ProcessingResult(
                 file_path=file_path,
                 mime_type=mime_type if 'mime_type' in locals() else "unknown",

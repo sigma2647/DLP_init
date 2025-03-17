@@ -994,32 +994,57 @@ class FileProcessor:
         try:
             mime_type = self._mime_cache.get(file_path) or self.detector.detect_file_type(file_path)
             ext = Path(file_path).suffix.lower()
-            print(f"Processing file: {file_path}, Extension: {ext}, MIME: {mime_type}")  # 打印文件信息
             
-            file_size = self._file_size_cache.get(file_path, 0)
+            # 检查文件头部以辅助判断文件类型
+            file_header = ""
+            try:
+                with open(file_path, 'rb') as f:
+                    file_header = f.read(16).hex().upper()
+            except Exception:
+                pass
             
-            # 定义常规文件的条件
+            # 扩展不支持处理的MIME类型列表
+            skip_mime_types = [
+                'image/vnd.dwg',                    # DWG图纸文件
+                'application/octet-stream',         # 二进制文件
+                'application/x-msdownload',         # 可执行文件
+                'application/font-sfnt',            # 字体文件
+                'font/ttf',                         # TTF字体
+                'font/otf',                         # OTF字体
+                'font/woff',                        # WOFF字体
+                'font/woff2',                       # WOFF2字体
+                'text/css',                         # CSS文件
+                'text/javascript',                  # JS文件
+                'image/jpeg', 'image/png', 'image/gif', 'image/bmp', 'image/webp', 'image/svg+xml',  # 图片文件
+                'audio/mpeg', 'audio/wav',          # 音频文件
+                'video/mp4', 'video/x-msvideo', 'video/quicktime'  # 视频文件
+            ]
+            
+            # 扩展不支持的MIME类型前缀
+            skip_mime_prefixes = ['font/', 'image/', 'audio/', 'video/']
+            
+            # 定义常规文件的条件 - 不再主要依赖文件扩展名
             regular_file_conditions = (
-                mime_type == 'image/vnd.dwg' or           # .dwg 文件（即使无后缀）
-                mime_type == 'application/octet-stream' or # 无法识别的文件
-                ext in self.detector.SKIP_EXTENSIONS       # 已定义的跳过扩展名
+                mime_type in skip_mime_types or
+                any(mime_type.startswith(prefix) for prefix in skip_mime_prefixes) or
+                (ext and ext in self.detector.SKIP_EXTENSIONS)
             )
             
             if regular_file_conditions:
-                logger.info(f"识别为常规文件，跳过内容提取: {file_path} (type: {mime_type})")
-                print(f"Skipping as regular file: {file_path}")  # 确认跳过
+                logger.info(f"识别为无需处理的文件类型，跳过内容提取: {file_path} (type: {mime_type}, header: {file_header})")
                 return ProcessingResult(
                     file_path=file_path,
                     mime_type=mime_type,
-                    content={'content': '', 'metadata': {'file_type': 'regular'}, 'skipped': True},
+                    content={'content': '', 'metadata': {'file_type': 'regular', 'file_header': file_header}, 'skipped': True},
                     sensitive_words=[],
                     error=None,
                     processing_time=time.time() - start_time
                 )
             
+            # 检查文件是否为空
+            file_size = self._file_size_cache.get(file_path, 0) or os.path.getsize(file_path)
             if file_size == 0:
                 logger.info(f"空文件，跳过: {file_path}")
-                print(f"Skipping empty file: {file_path}")
                 return ProcessingResult(
                     file_path=file_path,
                     mime_type=mime_type,
@@ -1029,10 +1054,23 @@ class FileProcessor:
                     processing_time=time.time() - start_time
                 )
             
+            # 处理内容的其余部分保持不变
             content = self.extractor.extract_content(file_path, mime_type)
-            if content.get('error'):
+            
+            # 检查提取是否失败
+            if content.get('error') and "UnsupportedFormatException" in content.get('error'):
+                # 如果是不支持的格式，标记为跳过
+                logger.info(f"不支持的文件格式，标记为跳过: {file_path} (type: {mime_type})")
+                return ProcessingResult(
+                    file_path=file_path,
+                    mime_type=mime_type,
+                    content={'content': '', 'metadata': {'file_type': 'unsupported'}, 'skipped': True},
+                    sensitive_words=[],
+                    error=content.get('error'),
+                    processing_time=time.time() - start_time
+                )
+            elif content.get('error'):
                 logger.warning(f"提取内容失败: {file_path} - MIME: {mime_type} - 错误: {content.get('error')}")
-                print(f"Content extraction failed: {file_path}, Error: {content.get('error')}")
                 return ProcessingResult(
                     file_path=file_path,
                     mime_type=mime_type,
@@ -1044,7 +1082,6 @@ class FileProcessor:
             
             sensitive_result = self.checker.check_content(content.get('content', ''))
             sensitive_words = sensitive_result
-            print(f"Processed successfully: {file_path}, Sensitive words: {len(sensitive_words)} found")
             
             return ProcessingResult(
                 file_path=file_path,
@@ -1057,7 +1094,6 @@ class FileProcessor:
         except Exception as e:
             error_msg = f"处理文件失败: {str(e)}"
             logger.error(f"{error_msg} - {file_path}")
-            print(f"Error occurred: {file_path}, Message: {error_msg}")  # 打印错误
             return ProcessingResult(
                 file_path=file_path,
                 mime_type=mime_type if 'mime_type' in locals() else "unknown",

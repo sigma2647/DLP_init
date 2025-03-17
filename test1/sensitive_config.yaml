@@ -26,7 +26,6 @@ sensitive_patterns:
       - 求职意向
       - 工作经历
       - 教育背景
-      - 培训
       - 人力资源
       - 组织架构
     weight: 0.95

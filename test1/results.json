@@ -1,33 +1,18 @@
 [
   {
-    "file_path": "C:\\file\\lab\\69fee2648ed0efd97bda54f71fc65012",
-    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-    "content_preview": "<!-- Slide number: 1 -->\nTEMPLATE\nAt vero quidam civibus cum, vim ex vidisse tibique dissentias. Ea iriure dolorem volumus his\nAdd your campany name\n\n### Notes:\n\n<!-- Slide number: 2 -->\n\n2\nNec cibo d",
+    "file_path": "C:\\file\\lab\\00b3f50f0fa3c40129826d27b1817ca2",
+    "mime_type": "image/vnd.dwg",
+    "content_preview": "",
     "sensitive_words": [],
     "error": null,
-    "processing_time": 0.1606593132019043
+    "processing_time": 0.00115966796875
   },
   {
-    "file_path": "C:\\file\\lab\\588df029fba062c1dcabf45c881aa498",
-    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-    "content_preview": "<!-- Slide number: 1 -->\n\n![图片 10](图片10.jpg)\nCONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPOINT TEMPLATE DESIGNS CONTRACTED WIND POWERPO",
-    "sensitive_words": [
-      {
-        "word": "培训",
-        "positions": [
-          245
-        ]
-      }
-    ],
-    "error": null,
-    "processing_time": 0.29214978218078613
-  },
-  {
-    "file_path": "C:\\file\\lab\\5767b522f515d948b3f48f2b5ac04af3",
-    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-    "content_preview": "<!-- Slide number: 1 -->\nminus\nminimal presentation template\n\n### Notes:\n\n<!-- Slide number: 2 -->\nABOUT US\nAbout Us\nYou Can Write Here\n\n### Notes:\n\n<!-- Slide number: 3 -->\nAbout Us\nWRITE HERE SOMETH",
+    "file_path": "C:\\file\\lab\\0617bff7dcd1ec730625d4157e9077b6",
+    "mime_type": "application/font-sfnt",
+    "content_preview": "",
     "sensitive_words": [],
     "error": null,
-    "processing_time": 0.5986711978912354
+    "processing_time": 0.0008590221405029297
   }
 ]
