@@ -1,0 +1,3356 @@
+[
+  {
+    "file_path": "C:\\file\\foooooo\\0216b88921742da0097f5ceb40e0834e_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿyÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.08092355728149414
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\021bc84793ecdfcd1fae59b4d5f76f3b_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 详细信息\n| 通讯录 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 |\n| --- | --- | --- | --- |...",
+    "sensitive_words": [
+      {
+        "word": "详细信息",
+        "positions": [
+          3
+        ]
+      },
+      {
+        "word": "通讯录",
+        "positions": [
+          10
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.17406225204467773
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\0caa8698bb00d4414a4980f4ad9fa190_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ *,þÿÿÿ)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.011569976806640625
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\0caee7b41d3f3681b22ec17e18ec0dce_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| 车辆租赁费用计算表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | ---...",
+    "sensitive_words": [
+      {
+        "word": "费用计算",
+        "positions": [
+          16
+        ]
+      },
+      {
+        "word": "个税金",
+        "positions": [
+          274
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.026165485382080078
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\11669d7325160a7442a9e3e91fc6d72a_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿùÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.034816741943359375
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\11850578630e01b23b2213b0a24f6694_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| Unnamed: 0 | XXX公司 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed...",
+    "sensitive_words": [
+      {
+        "word": "申请表",
+        "positions": [
+          569
+        ]
+      },
+      {
+        "word": "离职原因",
+        "positions": [
+          3324
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.11207246780395508
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\120123d3658c1a992af55cedade4e8dc_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| 学年度 学期 次教学质量监测学生成绩统计表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 |\n| --- | --- | --- | --- | --- | --- |\n| 乡镇 学校 班级 科目 任课教师 哦 | NaN | NaN | NaN | NaN | NaN |\n| 考号 | 学...",
+    "sensitive_words": [
+      {
+        "word": "质量监测",
+        "positions": [
+          22
+        ]
+      },
+      {
+        "word": "成绩统计",
+        "positions": [
+          28
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.02390432357788086
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\177dfaf1b76d066aa3f07f8ef9a51351_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿyú{ü}þyú{ü}þùy ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.10806822776794434
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1ad874e36e287d9bd6b2d2e5f35520e2_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 支票打印\n| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unna...",
+    "sensitive_words": [
+      {
+        "word": "支票",
+        "positions": [
+          3,
+          5740,
+          5754,
+          5773
+        ]
+      },
+      {
+        "word": "票据号码",
+        "positions": [
+          137608
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.2473280429840088
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1af865ef362b09bc11624d3d66a9493f_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá!þÿ ÒÑþÿÿÿÔÕÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.021200180053710938
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1b97e8d7904cd23b8102a0083483fc66_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 1\n| Unnamed: 0 | Unnamed: 1 | 0 | 票据统计表 | Unnamed: 4 | 一() | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| NaN | NaN | NaN | NaN | NaN | NaN | NaN...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          39,
+          3047,
+          5955,
+          8863,
+          11771,
+          14679,
+          17587,
+          20495,
+          23403
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.2935504913330078
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1da01e47e7bc75172f0eabd399b06c68_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ :<þÿÿÿ9ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.011228799819946289
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\20dfae5283f67e4d1a0de4038e78b4fe_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ #%þÿÿÿ\"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.00921320915222168
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\225384453c3faff0dd6357f78da20bcc_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 供应商资源管理\n| Unnamed: 0 | 供应商资源管理 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 |\n| --- | --- | --- | --- | --- | ...",
+    "sensitive_words": [
+      {
+        "word": "公章",
+        "positions": [
+          602
+        ]
+      },
+      {
+        "word": "账号",
+        "positions": [
+          1192
+        ]
+      },
+      {
+        "word": "固定资产",
+        "positions": [
+          1818,
+          3342,
+          3731
+        ]
+      },
+      {
+        "word": "申请表",
+        "positions": [
+          3346
+        ]
+      },
+      {
+        "word": "财务部",
+        "positions": [
+          4715
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.047417640686035156
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\29800bf8c23df3960fe67cd73db971f8",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | 总帐 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 1...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03770875930786133
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\29800bf8c23df3960fe67cd73db971f8_2",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | 总帐 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 1...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.1363964080810547
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\2b2ef2bdf629520481abf5d397b34041_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.01107335090637207
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\2c7e9d1b24e721cb77ea5d94c55b5565_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ Þ[üLÿù3456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}ýÿÿÿå[ýÿÿÿ !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}Root Entr...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 8.513549566268921
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\2e9ec5d5b853f252ef2e2ea20df8883a_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 家庭存款管理系统\n| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.8063428401947021
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3075ea0c85c1d566e1c2f5dc072cdecf_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Chart1\n|\n|  |\n\n## 产品销售分析图表\n|\n|  |\n\n## 销售数据分析表\n| 销 售 数 据 分 析 表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 |\n| --- | --- | --- | --- | ---...",
+    "sensitive_words": [
+      {
+        "word": "销售分析",
+        "positions": [
+          23
+        ]
+      },
+      {
+        "word": "数据分析",
+        "positions": [
+          43
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.7946822643280029
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3215607a8333a2ec11e9169b70e834f4_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ XÝ+þÿÿÿCÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿòóôõöøùúûüýþÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýÿÿÿâ+ !\"#$%&'()*+,-./0123456789:;<=>?@ABDýÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 6.033554553985596
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\32ddb406e55a3dca31c3e366751a908e_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| 2012-2013学年度上学期 期中 成绩表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 |\n| --- | --- | --- | --- | --- | ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.2073841094970703
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\33d554b27f2aa44bd85708f62824e7e2_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ (*þÿÿÿ'ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.6665246486663818
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\34b8bd10588930aed57077790837834b_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ wyþÿÿÿtuvÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.488368272781372
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3c3958467435538a2be9ea39a8f4dcbe_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| 纳税人识别号 | 纳税人名称 | 截止2033年9月20日经营状态 | 主管税务机关 | 经济行业一级类别 | 经济行业二级类别 | 开发项目情况 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | 最近三年是否有股权变更情况发生 | 2033年度 | Unnamed: 12 | Unnamed: 13 | Unnamed: 14 | Unna...",
+    "sensitive_words": [
+      {
+        "word": "纳税人",
+        "positions": [
+          12,
+          21
+        ]
+      },
+      {
+        "word": "销售情况",
+        "positions": [
+          734,
+          2827
+        ]
+      },
+      {
+        "word": "财务费",
+        "positions": [
+          801,
+          872,
+          3348
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.03777575492858887
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\42fa4c25bd14c8be4c37032a6aeef9c6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿüýþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.07985091209411621
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\430fe63d5dfc434ed3dc68d9cea9db17_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| 北京xx医院 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unname...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.16997265815734863
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\483e8c6497c84734a0155f18fd71493c_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá!þÿ ÞÝþÿÿÿàáâãÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.035906076431274414
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\51c594cc7de6e95f09a4b2a3e7b33ca4_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ 68þÿÿÿ5ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.013439655303955078
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\532c89dcc4a7b01d0b157425c057fcdf_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿùzû|ýÿùzû|ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.12648296356201172
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\59fcf5d9eafae82b68ca6e598a6d2d52_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ %'þÿÿÿ$ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.013886213302612305
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5a769dd650897e7a54aaa1a41f9ddfd0_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.019032955169677734
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5b627396cb25f0b94c0d1b779b88e53e_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.018021106719970703
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5bb60aceaee9e6d4744c1aba5d2511a5_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿùzû|ýÿùzû|ýÿ |ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.13578176498413086
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\601d3cb4d18b5177231092d643d9e0a3_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿùzû|ýÿùzû|ýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.11978769302368164
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6829b1730249f50835559968f52d748a_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿ)ôõqTU,öØÙmn3ýþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 5.5535948276519775
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\69d84b5561708596492746408ad7fa53_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 目录及说明\n| Unnamed: 0 | Unnamed: 1 | 2009年上期期中考试成绩统计表 | Unnamed: 3 | Unnamed: 4 | 年 | Unnamed: 6 | 期 | Unnamed: 8 | 考试成绩统计表 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 14 | Unna...",
+    "sensitive_words": [
+      {
+        "word": "成绩统计",
+        "positions": [
+          48,
+          118,
+          667,
+          884,
+          1101,
+          1318,
+          1535,
+          1752,
+          6691,
+          6761,
+          14298,
+          14368,
+          21905,
+          21975,
+          29512,
+          29582,
+          37119,
+          37189,
+          44726,
+          44796,
+          52362,
+          62342,
+          72322
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 2.3637776374816895
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6af6e8a186c84129bf13e7015dd1b66c_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿmnopqrstuvwxyz{|}I Ëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.249225378036499
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6ca1613bcf044b3687f20540517a6999_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ #%þÿÿÿ\"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.586277723312378
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6cb424a5948f65c9a62edc8e34b775c8_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 1\n| ××市经济技术合作项目登记表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 |\n| --- | --- | --- | --- | --- | --- |\n| 项目名称 | NaN | NaN | NaN | NaN | NaN |\n| 应用领域 | NaN | NaN | NaN | 实施地区 | ...",
+    "sensitive_words": [
+      {
+        "word": "经济技术",
+        "positions": [
+          10
+        ]
+      },
+      {
+        "word": "拟引资",
+        "positions": [
+          232
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.080244541168213
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6dce69113ea2feb9c7e99c3de2515b48_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.038205146789551
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6edf854c4ad2a25be45c7c45996f9f18_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ -/þÿÿÿ,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.22130799293518066
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\718fbdeebeafe3652438cf201224cad6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.015137672424316406
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\724a9da67424ff3d9bb246e25f20e930",
+    "mime_type": "application/msword",
+    "content_preview": "## 1月\n| Unnamed: 0 | 2033-01-01 00:00:00 | 2033-01-31 00:00:00 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Un...",
+    "sensitive_words": [
+      {
+        "word": "信用卡",
+        "positions": [
+          12996,
+          31488,
+          50340,
+          69209,
+          88237,
+          107106,
+          126134,
+          145338,
+          164207,
+          183237,
+          202108,
+          221138
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 2.4168813228607178
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\724a9da67424ff3d9bb246e25f20e930_2",
+    "mime_type": "application/msword",
+    "content_preview": "## 1月\n| Unnamed: 0 | 2033-01-01 00:00:00 | 2033-01-31 00:00:00 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Un...",
+    "sensitive_words": [
+      {
+        "word": "信用卡",
+        "positions": [
+          12996,
+          31488,
+          50340,
+          69209,
+          88237,
+          107106,
+          126134,
+          145338,
+          164207,
+          183237,
+          202108,
+          221138
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 2.600806713104248
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\72e6e70de4dc53ad4d192a251e5697f6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.014485359191894531
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\73bb5ba5565ea996bdcacc740abeec10_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ 24þÿÿÿ1ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.01487278938293457
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\759fa7c5b297e1f849537efb6fa0708d_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ <>þÿÿÿ;ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.017900705337524414
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7796d1975baa4efeb4c29a8658893153_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ xzþÿÿÿwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.023567676544189453
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\78165e7748a2ebfebaca078a12ad4a91_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ #%þÿÿÿ\"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.015692710876464844
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7a90aedf24209fc1e209f702a3cb4ee2_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ =þÿÿÿ1úûëjïwþuústuvwxyz{|}Cÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 5.253747463226318
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7f3098f2c58f43716b22df13a817f745_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ jlþÿÿÿiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.0212249755859375
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7f86896a44ae70d0efa9d315f1855c4e_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.20377302169799805
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8045ef4b3083b5046d8c5be6c995042a_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ %'þÿÿÿ$ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.01498866081237793
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\81880c822948dd1591e23c2af189f366_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿCýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.032826900482177734
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8390406433821e276d626a4017a6fd23_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ 68þÿÿÿ5ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.016447782516479492
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\83f85c32e53bd6ad8fba96b0724bfbec_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ $&þÿÿÿ#ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.013083696365356445
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\89f028149feae1f1e4287de66c1ff9f6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿyú{ü}þyú{ü}þ ýyýz yyÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.2363295555114746
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8a8845c5575e9b9f711c14df6f1341c6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ WYþÿÿÿRSTUVÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.04721808433532715
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8cf369a0488beb5cec597bcce5342cc8_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 培训报告\n| Unnamed: 0 | 员工培训报告 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| ...",
+    "sensitive_words": [
+      {
+        "word": "培训报告",
+        "positions": [
+          3,
+          25
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.03708386421203613
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8f1e34c9541090dc4497c1f52a4b5c37_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ ]_þÿÿÿRSTUVWXYZ[\\ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.07231426239013672
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\90799dee96947ddd51cbcb5c1aaeccf1_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.014396429061889648
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\90fc2072cd32b6edf79f452e345ecbb4_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 库房台账\n| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unna...",
+    "sensitive_words": [
+      {
+        "word": "台账",
+        "positions": [
+          5
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.2313055992126465
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\91164029a2eda1afd20a54b4783bbd21_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.030502796173095703
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\92ba75a4e9bb8c70d00043e92d1c74c9_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ &(þÿÿÿ%ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.011305809020996094
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\937edae802674bad7e93197f55455a6c_1",
+    "mime_type": "application/msword",
+    "content_preview": "## ))\n| 料号 | 小时产能 | 合格率 | 库存 | 三线总灯头数 | 工作时间 | 灯头系数 |\n| --- | --- | --- | --- | --- | --- | --- |\n| B506-NE14-F | 133.333333 | 1.0 | NaN | 4000 | 30 | 1.0 |\n| B506-NE14-F | 133.333333 | 1.0 | NaN | 40...",
+    "sensitive_words": [
+      {
+        "word": "合格率",
+        "positions": [
+          20,
+          35853
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.6996204853057861
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\97bddfa54a6895c749a74c105bf408fb_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 1月\n| 出纳一览表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnamed: 14...",
+    "sensitive_words": [
+      {
+        "word": "经费",
+        "positions": [
+          352,
+          513,
+          5421,
+          5582,
+          10492,
+          10653,
+          15562,
+          15725,
+          20635,
+          20794,
+          25702,
+          25861,
+          30769,
+          30928,
+          35836,
+          35995,
+          40903,
+          41062,
+          45972,
+          46131,
+          51041,
+          51202,
+          56112,
+          56271,
+          61187
+        ]
+      },
+      {
+        "word": "凭证号",
+        "positions": [
+          496,
+          5565,
+          10636,
+          15708,
+          20777,
+          25844,
+          30911,
+          35978,
+          41045,
+          46114,
+          51185,
+          56254
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.8376023769378662
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9a3ed96c3e92d55c48b14d203878b310_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| XX学校XX年考试招生情况分析 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| NaN | NaN | NaN | NaN | NaN | NaN | NaN |\n| Na...",
+    "sensitive_words": [
+      {
+        "word": "情况分析",
+        "positions": [
+          23
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.019391298294067383
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9b45bfe2a931204fb6d64ee7d103fd17_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ &ñóþÿÿÿËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.4470663070678711
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\aa66a6eeeb6a48829d479990f6d9ba0c_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ %'þÿÿÿ$ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.016634225845336914
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b228a88dc327b432cf7f7e254b6046a9_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03634953498840332
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b2c0d636c2edd6a86df3ccfd175af85f_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ #%þÿÿÿ\"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.014772891998291016
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b33d1227684c8d4badb3f85878fb71f6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ !þÿÿÿ û|úùzûyyù{ú üyü ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.36273765563964844
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b3521ddcf71523560f12de9bcb69efd7_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ 46þÿÿÿ123ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.023122310638427734
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\bdb4dad483077bb4798f1f59662466c0",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿsôuöwøyú{ü}þqòsôu yú{ü} ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.5019204616546631
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\bdb4dad483077bb4798f1f59662466c0_2",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿsôuöwøyú{ü}þqòsôu yú{ü} ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.4778146743774414
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\be9984a076b77b31b0b61809f9d19a98_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ ;ýþÿÿÿ]ý&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOP³²³jklmû ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 6.181746482849121
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\c4fb9027ba7880fde0c9a4085a692304_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ !#þÿÿÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.897427558898926
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d22235d6a6438c395531104ef96f590d_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ =?þÿÿÿ<ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.1362626552581787
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d3478d87a8670350a96dc7a1a0fcdebd_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.019655466079711914
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d3dd9c027a4c7abed4b309cb3676a3b8_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ ÅÇþÿÿÿÑÒÓÔÕÆÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06194901466369629
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d4e708d33c94481139080157f5069a28_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿªÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.08807826042175293
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d50ba3e7dbbf43dc33532dbaedb79c17_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿ³µ¹.ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.11936187744140625
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d7b4d4d3b149c53272f14fbeb672fec6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿsôuöwøyú{ü}þqòsôu yú{ü} ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.3749103546142578
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\daa48ff1c5e7b77a31b336c6d889fd21_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.022231101989746094
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\dd1b1578142c0a9b0d0213402e509f57_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 目录\n| Unnamed: 0 | 基本信息、报表目录及使用说明 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Un...",
+    "sensitive_words": [
+      {
+        "word": "编制单位",
+        "positions": [
+          8347,
+          191183,
+          204071,
+          208501,
+          213476,
+          219588,
+          228442,
+          228504,
+          228597,
+          283889
+        ]
+      },
+      {
+        "word": "复核人",
+        "positions": [
+          16028
+        ]
+      },
+      {
+        "word": "制表人",
+        "positions": [
+          17560
+        ]
+      },
+      {
+        "word": "损益表",
+        "positions": [
+          17588,
+          29934,
+          39592,
+          207802,
+          208583,
+          346629
+        ]
+      },
+      {
+        "word": "现金流量",
+        "positions": [
+          20724,
+          29971,
+          41248,
+          41271,
+          41357,
+          41373,
+          41420,
+          41434,
+          41500,
+          41593,
+          94062,
+          216374,
+          219319,
+          219707,
+          219740,
+          220312,
+          220369,
+          220783,
+          220983,
+          221057,
+          221588
+        ]
+      },
+      {
+        "word": "凭证号",
+        "positions": [
+          31543,
+          34761,
+          34770,
+          114749,
+          189198
+        ]
+      },
+      {
+        "word": "财务报表",
+        "positions": [
+          43174,
+          228722,
+          342141
+        ]
+      },
+      {
+        "word": "对照表",
+        "positions": [
+          49525
+        ]
+      },
+      {
+        "word": "信用卡",
+        "positions": [
+          52455,
+          53164,
+          60324
+        ]
+      },
+      {
+        "word": "应收票据",
+        "positions": [
+          53640,
+          55141,
+          55148,
+          58339,
+          192333,
+          204461,
+          218272,
+          230350,
+          239045,
+          239182,
+          240504
+        ]
+      },
+      {
+        "word": "应收股利",
+        "positions": [
+          54025,
+          56334,
+          56341,
+          58354,
+          192465,
+          204530,
+          230407,
+          240539,
+          243639,
+          244961
+        ]
+      },
+      {
+        "word": "应收账款",
+        "positions": [
+          54820,
+          55536,
+          55543,
+          55601,
+          58344,
+          192729,
+          204668,
+          230369,
+          240676,
+          241998,
+          243514
+        ]
+      },
+      {
+        "word": "应收款",
+        "positions": [
+          55216,
+          55614,
+          57145,
+          58311,
+          58391,
+          58770,
+          69535,
+          69543,
+          69554,
+          192863,
+          204740,
+          230447,
+          230736,
+          244998,
+          246613,
+          247936,
+          267521,
+          268844
+        ]
+      },
+      {
+        "word": "应付账款",
+        "positions": [
+          55985,
+          69580,
+          82819,
+          82826,
+          85198,
+          197661,
+          204488,
+          231017,
+          239072,
+          288447,
+          289769
+        ]
+      },
+      {
+        "word": "固定资产",
+        "positions": [
+          63855,
+          64619,
+          66168,
+          68078,
+          70658,
+          70665,
+          70677,
+          71059,
+          71412,
+          71423,
+          71436,
+          72662,
+          72671,
+          72716,
+          76945,
+          195791,
+          196055,
+          196591,
+          205607,
+          205676,
+          205824,
+          205901,
+          205976,
+          206188,
+          206262,
+          207218,
+          207230,
+          218570,
+          218818,
+          218861,
+          218965,
+          219068,
+          219912,
+          220202,
+          220271,
+          220547,
+          220742,
+          221200,
+          230754,
+          230792,
+          230853,
+          262894,
+          264379,
+          267381,
+          268880,
+          269026,
+          270348,
+          270383,
+          272014,
+          273340,
+          274861,
+          276347,
+          276484,
+          277808,
+          294309,
+          294321
+        ]
+      },
+      {
+        "word": "短期借款",
+        "positions": [
+          68833,
+          78957,
+          78964,
+          197397,
+          204350,
+          230979,
+          236103,
+          285459,
+          286781
+        ]
+      },
+      {
+        "word": "经费",
+        "positions": [
+          70783,
+          70792,
+          83650,
+          83659
+        ]
+      },
+      {
+        "word": "应交所得税",
+        "positions": [
+          72025
+        ]
+      },
+      {
+        "word": "财务费",
+        "positions": [
+          84846,
+          111596,
+          111603,
+          202441,
+          209771,
+          218216,
+          220330,
+          231628,
+          245058,
+          334709,
+          336031
+        ]
+      },
+      {
+        "word": "筹资",
+        "positions": [
+          111628,
+          219230,
+          219279,
+          221014,
+          221050,
+          221238,
+          221474,
+          221581
+        ]
+      },
+      {
+        "word": "会计政策",
+        "positions": [
+          211946,
+          268949
+        ]
+      },
+      {
+        "word": "纳税人",
+        "positions": [
+          217223,
+          217451
+        ]
+      },
+      {
+        "word": "借方合计",
+        "positions": [
+          380635
+        ]
+      },
+      {
+        "word": "贷方合计",
+        "positions": [
+          382124
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.980673313140869
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\dd4e19b788e8b31805f470f96f82d344_1",
+    "mime_type": "application/msword",
+    "content_preview": "## Sheet1\n| 员工考勤加班调休汇总表 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 |\n| --- | --- | --- | --- | ---...",
+    "sensitive_words": [
+      {
+        "word": "考勤加班",
+        "positions": [
+          14
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.035187482833862305
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\de5ffd0073fe6a5d3d8ff659608e85a2_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 8月未入帐\n| Unnamed: 0 | 日進料對帳明細表 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 | Unnamed: 9 | Unnamed: 10 | Unnamed: 11 | Unnamed: 12 | Unnamed: 13 | Unnam...",
+    "sensitive_words": [
+      {
+        "word": "對帳明細",
+        "positions": [
+          27,
+          1209
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.08719873428344727
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\e82e146cf271ff007adcec7c27630437_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.02829575538635254
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\ea0c990ef1eb128d5fe4b21dc2848f5f_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ #%þÿÿÿ\"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.01078939437866211
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\ec2891dfc875f04ca55af1a1f3c1c79d_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ $&þÿÿÿ#ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.010860681533813477
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\eec064da98ec460781c2a40f49a8c403_1",
+    "mime_type": "application/msword",
+    "content_preview": "## 资产需求申请表\n| Unnamed: 0 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 有限公司 | NaN | NaN | NaN | NaN | NaN | NaN |\n| 资产需求申...",
+    "sensitive_words": [
+      {
+        "word": "申请表",
+        "positions": [
+          7,
+          199
+        ]
+      },
+      {
+        "word": "申请单",
+        "positions": [
+          312,
+          470
+        ]
+      },
+      {
+        "word": "财务部",
+        "positions": [
+          655,
+          1735,
+          2055,
+          2573,
+          2672,
+          4008,
+          4161,
+          4780,
+          4926
+        ]
+      },
+      {
+        "word": "固定资产",
+        "positions": [
+          1029,
+          2110,
+          2236,
+          2695,
+          2913,
+          4408,
+          4906
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.2507164478302002
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f2ba9ef0f6b57cf61d5e4a7e4e7eb1a5_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ @Bþÿÿÿ?ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.012415885925292969
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f490ca07b84f6dd59c393c429fb98af6_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ iþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.015725374221801758
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f924ac7ddf7b2484b090910490e6db3b_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ þÿÿÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.14038324356079102
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\fd9222f463e25207b5f596134f55f5b3_1",
+    "mime_type": "application/msword",
+    "content_preview": "ÐÏàá>þÿ #%þÿÿÿ\"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.011915206909179688
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1ac9f6456af8d8b105625ca8a5e386e8_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n 招录高校毕业生报名登记表                       Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n          NaN                              NaN     ...",
+    "sensitive_words": [
+      {
+        "word": "政治面貌",
+        "positions": [
+          2935
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.05124711990356445
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\0065c2d2411991ed1290ca2b59d7e4fc_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n固定资产登记明细表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n       序号       购入日期     固定资产编号         名称       规格型号         单位         数量  ...",
+    "sensitive_words": [
+      {
+        "word": "固定资产",
+        "positions": [
+          14,
+          148
+        ]
+      },
+      {
+        "word": "明细表",
+        "positions": [
+          20
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.08645153045654297
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\06de04ab4ea35a201508dd5456fa0ff5_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: 1\n 姓名  数据  辅助\n 张峰 400 500\n黄金铭 380 500\n李开敏 344 500\n王晓旭 280 500\n陈大康 250 500\n黄小斌 200 500\n 张康 100 500",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.02352595329284668
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\0d8e9ffa37901dc2cdba7cfbd882a7dc_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n 供应商发展策略和计划  Unnamed: 1 Unnamed: 2\n        NaN         NaN        NaN\n       计  划 中长期（××-××年）    短期（××年）\n企业发展策略及相关计划         NaN        NaN\n企业竞争策略及相关计划         NaN        NaN\n产品营销策略及相关计划...",
+    "sensitive_words": [
+      {
+        "word": "发展策略",
+        "positions": [
+          18,
+          121
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.032440185546875
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\28e181f7cd963cf1cfdd4d971241b2cf_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: 01-05\n                                                                                        一般纳税人固定资产进项税金调查表      Unnamed: 1      Unnamed: 2 Unnamed: 3     Unnamed: 4  Unnamed: 5 Unnamed: 6\n说...",
+    "sensitive_words": [
+      {
+        "word": "纳税人",
+        "positions": [
+          103,
+          838,
+          1328,
+          1618,
+          1908,
+          2198,
+          2488,
+          2778,
+          3068
+        ]
+      },
+      {
+        "word": "固定资产",
+        "positions": [
+          106,
+          243,
+          851,
+          1055,
+          1071,
+          1097,
+          1109,
+          1122,
+          1331,
+          1443,
+          1469,
+          1492,
+          1505,
+          1621,
+          1733,
+          1759,
+          1782,
+          1795,
+          1911,
+          2023,
+          2049,
+          2072,
+          2085,
+          2201,
+          2313,
+          2339,
+          2362,
+          2375,
+          2491,
+          2603,
+          2629,
+          2652,
+          2665,
+          2781,
+          2893,
+          2919,
+          2942,
+          2955,
+          3071,
+          3183,
+          3209,
+          3232,
+          3245
+        ]
+      },
+      {
+        "word": "调查表",
+        "positions": [
+          114,
+          1339,
+          1629,
+          1919,
+          2209,
+          2499,
+          2789,
+          3079
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.0719599723815918
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\044283519db85390e8819d5cffb5a0aa_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n   人员分布表 Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n單位：人數（名）        NaN         NaN         NaN         NaN         NaN      ...",
+    "sensitive_words": [
+      {
+        "word": "人员分布",
+        "positions": [
+          17
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.02097177505493164
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\33e47f8bbe267f4cda2f0904477bda88_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                   Unnamed: 0                      Unnamed: 1       Unnamed: 2            Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9    ...",
+    "sensitive_words": [
+      {
+        "word": "重点建设",
+        "positions": [
+          328,
+          918
+        ]
+      },
+      {
+        "word": "验收表",
+        "positions": [
+          345
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.07888913154602051
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3b8b224fb8f52c5e34027a570e6ae263_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                      Unnamed: 1 Unnamed: 2                       Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9     Unnamed: 10 Unnamed: 11 Unna...",
+    "sensitive_words": [
+      {
+        "word": "业务统计",
+        "positions": [
+          294
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.08037829399108887
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3e05a8d8f6d09f5fbc41625790edc087_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n××市工业重点技术创新项目指导性计划 Unnamed: 1 Unnamed: 2             Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10           Unnamed: 11\n             制表单位：    ...",
+    "sensitive_words": [
+      {
+        "word": "制表单位",
+        "positions": [
+          191
+        ]
+      },
+      {
+        "word": "经济效益",
+        "positions": [
+          445
+        ]
+      },
+      {
+        "word": "经费",
+        "positions": [
+          600
+        ]
+      },
+      {
+        "word": "年产量",
+        "positions": [
+          610
+        ]
+      },
+      {
+        "word": "制药",
+        "positions": [
+          1998
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.07269716262817383
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\44a353e81e0d43e3cc5ba290111ad18c_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                                                                                                                                           Unnamed: 0 Unna...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          742
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.0699150562286377
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\43d70b18157aa79dc7ad6d9d3837ff42_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                                                                                                               Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          582,
+          5361
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.07623124122619629
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\38cbaa8e677829175319a8d6090ac11e_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "**务 工 证 明**\n\n兹证明：\n\n员工\\_\\_\\_\\_\\_\\_\\_，性别\\_\\_\\_\\_，民族\\_\\_\\_，\\_\\_\\_年\\_\\_\\_月\\_\\_\\_日出生，身份证号\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_，于\\_\\_\\_年\\_\\_\\_月\\_\\_\\_日至今在\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_有限公司工作。\n\n特此证明！...",
+    "sensitive_words": [
+      {
+        "word": "公章",
+        "positions": [
+          207
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.12378549575805664
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\4884e882f6286014a2b9e1360edbcb62_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0               证券业务统计表                           Unnamed: 2                     Unnamed: 3 Unnamed: 4\n        NaN                   NaN                             （年、季报通用）   ...",
+    "sensitive_words": [
+      {
+        "word": "业务统计",
+        "positions": [
+          42
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.02656102180480957
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3d37b56f219083454243d825611824fe_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "**Xxxx股份有限责任公司**\n\nXxx［2024］25号\n\n**员工违规处罚通报**\n\n关于我公司 部门员工 和 部门员工 ，两位员工于 年 月 日 时 分，在工作时间因个人矛盾，发生口角，进而大打出手，发生人身伤害事件，该事件已违反《员工手册》第X章第X款第X条；不仅影响个人工作还严重影响了同部门其它员工正常工作，以及破坏公司团结、和谐的工作氛围；影响十分恶劣！\n\n针对以上恶劣事件，经公司研...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.15098214149475098
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\44afad5db18131e6ec6d5ee96b283ea4_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "**12th JUL. 2018**\n\n**Dear Sir or Madam:**\n\n**Herewith we confirm that Mrs. WU JIAJIA is the Employee of SHANGHAI HYEE ARCHITECTURAL DESIGN Co., Ltd.. She will go to visit your country from 3rd Oct 20...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.15026569366455078
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\4dc64937c4202abdc64caead391795ca_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: 供应商比较表\n供应商比较表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed:...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06476974487304688
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\47f26fb13d9713afa39f4803af8b492d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "**转正申请书**\n\n尊敬的领导：\n\n我于XXX年XX月X日成为公司的试用员工，到今天3个月试用期已满，根据公司的规章制度，现申请转为公司正式员工。从来公司的第一天开始，我就把自己融入到我们的这个团队中，现将这三个月的工作情况总结如下：\n\n首先，对工作认真负责，任劳任怨，与同事配合默契，平时刻苦钻研，不断创新，能够在规定时间内出色的完成任务，保证公司项目进度，做到让领导、自己都满意。\n\n其次，非常...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.14528489112854004
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\0c5bad2e4423f25afdc148d8c80067a4_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 财务费用支出表 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7\n        NaN      序号         日期       支出说明       支出金额        报销人       报销部门         备注\n        NaN   ...",
+    "sensitive_words": [
+      {
+        "word": "财务费",
+        "positions": [
+          26
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.3886446952819824
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\168dea13f7181a1ed9dcd04ad09e459f_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 商场销售情况 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5\n        NaN    NaN        NaN        NaN        NaN        NaN\n        NaN     品名         单价         数量         金额        售...",
+    "sensitive_words": [
+      {
+        "word": "销售情况",
+        "positions": [
+          28
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.4247002601623535
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\53bca0c1815b955c5cab1cc431cc68e7_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                         Unnamed: 0               Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  企业特殊技术人才基本情况                         ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.031991004943847656
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\157e222a66b686a0d18f2638bc000e2d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n                 会议记录  Unnamed: 1 Unnamed: 2  Unnamed: 3 Unnamed: 4\n    年   月    日  星  期          NaN        NaN         NaN        NaN\n                 会议时间     点   分开会       会议地址      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.4678480625152588
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\123e25d7545a6d437209474d8c728f67_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n           财务应收款统计表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6\n                公司：        NaN        NaN        财务：        NaN        会计：        NaN\n              ...",
+    "sensitive_words": [
+      {
+        "word": "应收款",
+        "positions": [
+          27,
+          222
+        ]
+      },
+      {
+        "word": "统计表",
+        "positions": [
+          30
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.4859185218811035
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\21a82f12303e533bd4109aeac97f582d_3",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n            领导预约记录表 Unnamed: 1\n                 日期     具体预约内容\n2012-09-17 00:00:00        NaN\n2012-09-18 00:00:00        NaN\n\nSheet: Sheet2\nEmpty DataFrame\nColumns: []\nIndex: []\n\nSheet: S...",
+    "sensitive_words": [
+      {
+        "word": "预约记录",
+        "positions": [
+          28
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.4701812267303467
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\21a82f12303e533bd4109aeac97f582d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n            领导预约记录表 Unnamed: 1\n                 日期     具体预约内容\n2012-09-17 00:00:00        NaN\n2012-09-18 00:00:00        NaN\n\nSheet: Sheet2\nEmpty DataFrame\nColumns: []\nIndex: []\n\nSheet: S...",
+    "sensitive_words": [
+      {
+        "word": "预约记录",
+        "positions": [
+          28
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.49481773376464844
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1628adb9417ae5c26a8af7db0ddd4737_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n        总      帐 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 1...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.5248534679412842
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\21a82f12303e533bd4109aeac97f582d",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n            领导预约记录表 Unnamed: 1\n                 日期     具体预约内容\n2012-09-17 00:00:00        NaN\n2012-09-18 00:00:00        NaN\n\nSheet: Sheet2\nEmpty DataFrame\nColumns: []\nIndex: []\n\nSheet: S...",
+    "sensitive_words": [
+      {
+        "word": "预约记录",
+        "positions": [
+          28
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.5246648788452148
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1883457007a78dcb418430d959fcf805_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6 Unnamed: 7\n        NaN    固定资产报废表        NaN        NaN        NaN        NaN         NaN        NaN\n      ...",
+    "sensitive_words": [
+      {
+        "word": "固定资产",
+        "positions": [
+          119,
+          568
+        ]
+      },
+      {
+        "word": "财务部",
+        "positions": [
+          1213
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.5410866737365723
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\10110f0e38c726a21b01c89fd74bb2d8_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n      Unnamed: 0 Unnamed: 1 Unnamed: 2\n             NaN        NaN        NaN\n             NaN        NaN        NaN\n             NaN        NaN        NaN\n             NaN        NaN   ...",
+    "sensitive_words": [
+      {
+        "word": "利润统计",
+        "positions": [
+          370,
+          970
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.599834680557251
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\1efe611ffad45d0cb3a85f1bdfdf62e8_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n            收发文本登记簿 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4          Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n                 收文        NaN        NaN        NaN      ...",
+    "sensitive_words": [
+      {
+        "word": "发文",
+        "positions": [
+          27,
+          223
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.639042854309082
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6968496697da3529c3510fb51828f55d_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                  Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12  Unnamed: 13 Unnamed: ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.0498654842376709
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\2a56c6b814992d6d990b29bda4b05efd_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 生产周报\n生 产 周 报 表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4          Unnamed: 5          Unnamed: 6          Unnamed: 7          Unnamed: 8          Unnamed: 9         Unnamed: 10         Unname...",
+    "sensitive_words": [
+      {
+        "word": "生产工序",
+        "positions": [
+          371
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.7420270442962646
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3420a822daa7233200f97216116cc068_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1          Unnamed: 2  Unnamed: 3    Unnamed: 4          Unnamed: 5 Unnamed: 6\n        NaN    职务免除通知单                 NaN         NaN           NaN                 N...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.7505269050598145
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\342565db239485eb416a2b5620e2e2c6_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 离职原因统计表 Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5 Unnamed: 6\n        NaN      序号       被调查人       离职原因         NaN       离职原因       统计人数\n        NaN       1         蔡静    ...",
+    "sensitive_words": [
+      {
+        "word": "离职原因",
+        "positions": [
+          26,
+          127,
+          150
+        ]
+      },
+      {
+        "word": "统计表",
+        "positions": [
+          30
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.7700097560882568
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\359d06707e8cd57bccfff311e83c9588_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 员工工作证\n Unnamed: 0 Unnamed: 1 Unnamed: 2\n        NaN        NaN        NaN\n        NaN   华云信息有限公司        NaN\n        NaN        NaN        NaN\n        NaN        NaN        NaN\n        NaN      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.7732598781585693
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\47cbe50f60461ebdc5f55c110c4daee1_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0   后备人员明细表 Unnamed: 2 Unnamed: 3 Unnamed: 4\n        NaN     在任者姓名         职位      预计的变动      变动的原因\n        NaN       NaN        NaN        NaN        NaN\n        NaN      填表人：...",
+    "sensitive_words": [
+      {
+        "word": "明细表",
+        "positions": [
+          32
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.6588246822357178
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\36119f4ddff1008f165bb3d690dc8247_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n                                                员工出差申请表                                   Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6\n                             ...",
+    "sensitive_words": [
+      {
+        "word": "申请表",
+        "positions": [
+          66
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.7950267791748047
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\36b28125d3e1d77caac7c61cc772a349_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 本月到期借款月报表\n本月到期借款月报表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8          Unnamed: 9 Unnamed: 10\n     公司名称        NaN        NaN        NaN        NaN...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.7899384498596191
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\451be3b3ef617b49e1157c1b14159d68",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 比价单\n Unnamed: 0                                                                  比 价 单  Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7\n        NaN                           ...",
+    "sensitive_words": [
+      {
+        "word": "申请单",
+        "positions": [
+          542
+        ]
+      },
+      {
+        "word": "财务部",
+        "positions": [
+          2323
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.7180397510528564
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7ad910f91ad6f3a1c013c058bc8c28dc_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: 月报\n                              销售月报表 Unnamed: 1  Unnamed: 2  Unnamed: 3                                          时间：\n                                NaN        NaN         NaN         NaN    ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06244993209838867
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\397ab97351639f01fa53578b1c39f158_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 生产日报表\n Unnamed: 0 XY家居装饰公司生产日报表 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9  Unnamed: 10  Unnamed: 11  Unnamed: 12  Unnamed: 13  Unnamed: 14  Unn...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.8570306301116943
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\41cdeca335aaca1dab30ae272d27623c_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n客户订单表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4\n 订单编号       客户姓名       所在城市       订单金额         预付\n10001         张豪         上海       9108       4554\n10002         杨晴         成都       30...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.8460497856140137
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\715b772d13a335181299144bb48d8e22_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: 关注商品目录\n  Unnamed: 0  Unnamed: 1                                                     Unnamed: 2 Unnamed: 3 Unnamed: 4\n出口退税审核关注商品目录         NaN                                                    ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.15018987655639648
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3de9eedfb5e5233f74b070ff07100ca8_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n第一季度销售表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4\n    商品名         单位        一月份        二月份        三月份\n A01型冰箱          台        155        147        137\n A02型冰箱          台        171 ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.9069232940673828
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\0b3785e07b196f5e03f513219a41afd9_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Content from the zip file `0b3785e07b196f5e03f513219a41afd9_1`:\n\n## File: [content_types].xml\n\n<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?><Types xmlns=\"http://schemas.openxmlformats.org/pa...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.0426130294799805
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7b0913a213f0bdc370c71777abe203bf_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "**合同补充协议**\n\n甲方:\n\n乙方:\n\n甲乙双方于 年 月 日签订一份合同,合同名称为: 随着时间变化等因素原有合同内容出现相关内容不足,现在甲乙双方在协商一致前提下共同拟定本款合同补充协议,修订原先合同内容,使之变得更加完善,此次合同补充协议如下:\n\n**补充协议及修订条款内容:**\n\n本协议签订后将与原先甲乙双方签订的合同共同产生法律效应,补充协议内容双方均已知晓并且阅读后进行签字确认。\n...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.19387459754943848
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3cbee031595812d8c151ef01565e490e_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                Unnamed: 1              Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9 Unnamed: 10\n        NaN                   面试...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.0243580341339111
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8399d722748364fdadf2f321bfe0f571_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n  Unnamed: 0  Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 机关单位工作人员工龄情况 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12\n       填报单位：         NaN        NaN...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06529045104980469
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8536b8267bcaa390008b514d22d7d406_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 全年项目收入图表分析 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14\n        NaN    ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.060996294021606445
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\4e4f45f00d526aae0323f8e0c26a6493",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                                                                   Unnamed: 1 Unnamed: 2  Unnamed: 3  Unnamed: 4 Unnamed: 5 Unnamed: 6\n        NaN                             ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.8986642360687256
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\872883583560a8a74ce16e4852ddad11_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n    供应商资料\n      NaN\n     企业信息\n    供应商名称\n     企业性质\n     总部地址\n企业产值及利润情况\n     产品信息\n     拥有品牌\n     所属品类\n     产品优势\n     产品劣势\n     渠道信息\n     覆盖区域\n     渠道结构\n     覆盖模式\n     配送能力\n     配送中心\n   订单满...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03755784034729004
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\4e4f45f00d526aae0323f8e0c26a6493_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                                                                   Unnamed: 1 Unnamed: 2  Unnamed: 3  Unnamed: 4 Unnamed: 5 Unnamed: 6\n        NaN                             ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.9720351696014404
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\516e65d0ea05e0e689d5be98c9ef6e9d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n               回 车 单  Unnamed: 1 Unnamed: 2  Unnamed: 3 Unnamed: 4\n      单位名称：金山稻壳儿有限公司         NaN        NaN         NaN        NaN\n                出发日期         NaN       出发时间         ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.99251389503479
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5233d2352f260d4ba290711c960ac9c0_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 销售收入与销售费用对比分析\n Unnamed: 0 销售收入与销售费用对比分析 Unnamed: 2 Unnamed: 3\n        NaN            月份       销售收入       销售费用\n        NaN            1月      10652     352.01\n        NaN            2月      1095...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.9580674171447754
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\52ec05d782df76fae5403b4d470fd4b2_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                                    离职交接表                             Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7  Unnamed: 8 Unnamed: 9\n        NaN     ...",
+    "sensitive_words": [
+      {
+        "word": "离职原因",
+        "positions": [
+          742
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 2.753389358520508
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9874ffc2c46d8da8d463faed38a179b6",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5\n        NaN       销售人员         张雷         李红         张威         龚明\n        NaN         1月       3625       2563       3...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.08933043479919434
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9874ffc2c46d8da8d463faed38a179b6_2",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5\n        NaN       销售人员         张雷         李红         张威         龚明\n        NaN         1月       3625       2563       3...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06585288047790527
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\487646a4f900bfa13bbdf528be0ed2e6_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 1\n                          Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9  Unnamed: 10                                     ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.1829867362976074
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\98a43d8f3f30a852bca2437c76760d90_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                                                Unnamed: 0 Unnamed: 1    Unnamed: 2 Unnamed: 3 Unnamed: 4\n                                                ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.1573772430419922
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\358ba946fda8169668f8effd466b68d2_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 工资表数据录入\n    自动生成工资条工具 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.505620002746582
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\60e1f37eff46db9dc2575b2d2a80b21b_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2  Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6\n        NaN      公司定价单        NaN         NaN        NaN        NaN        NaN\n        NaN         发货      ...",
+    "sensitive_words": [
+      {
+        "word": "财务部",
+        "positions": [
+          856
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.045332431793213
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5f71bc941b00b91bfcc0bf735760f3ed_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n生产统计表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8\n   项目         编号       物品名称         型号         单位         数量         时长        合格率         备...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          16
+        ]
+      },
+      {
+        "word": "合格率",
+        "positions": [
+          187
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.1468639373779297
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\14603b84c67b2b042357d73cff817349_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 首页\n Unnamed: 0 Unnamed: 1 Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5 Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9 Unnamed: 10\n        NaN   财务报销管理系统        NaN         NaN         NaN    ...",
+    "sensitive_words": [
+      {
+        "word": "财务部",
+        "positions": [
+          2574,
+          4034,
+          6062,
+          8599,
+          10342,
+          13986
+        ]
+      },
+      {
+        "word": "财务费",
+        "positions": [
+          2663,
+          5566,
+          6411,
+          8322,
+          8754,
+          14234
+        ]
+      },
+      {
+        "word": "明细表",
+        "positions": [
+          2955,
+          9557,
+          16202
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.712462902069092
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5f1040a6bfa07fd9b0246fd20773d306_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n客户通讯簿 Unnamed: 1       Unnamed: 2 Unnamed: 3 Unnamed: 4\n 客户姓名       固定电话             移动电话       QQ号码       电子邮箱\n   王荣   1822****      1381110****  29188****        NaN\n  陶莉莉   1883**** 1...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.2126734256744385
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9e1c13ecedd1e89fea3096bfdc043683_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\nUnnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6           Unnamed: 7 Unnamed: 8\n 学生变动情况登记表        NaN        NaN        NaN        NaN        NaN        NaN ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06096172332763672
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5471e090db5819c76b7348c195334b17_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n出差登记表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10\n   姓名         部门        目的地       出差日期       返回日期       预计天数       实际...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.3017513751983643
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\62497e518318534fd13efe6c76394ee9_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12\n        NaN   采购部工作流程图        NaN      ...",
+    "sensitive_words": [
+      {
+        "word": "工作流程",
+        "positions": [
+          178,
+          325
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.1859207153320312
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6b17ec37ff79b065c202650f78a726c1_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 票据交接清单\n                                    票据交接清单                       Unnamed: 1 Unnamed: 2       Unnamed: 3\n                                       编号：                              NaN       ...",
+    "sensitive_words": [
+      {
+        "word": "票据号码",
+        "positions": [
+          260
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.0566985607147217
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\61e5a5fef920d9fa3bd06e01d52080a8_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8\n        NaN  员工工作态度互评表        NaN        NaN        NaN        NaN        NaN        N...",
+    "sensitive_words": [
+      {
+        "word": "互评表",
+        "positions": [
+          133
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.2842490673065186
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6b17ec37ff79b065c202650f78a726c1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 票据交接清单\n                                    票据交接清单                       Unnamed: 1 Unnamed: 2       Unnamed: 3\n                                       编号：                              NaN       ...",
+    "sensitive_words": [
+      {
+        "word": "票据号码",
+        "positions": [
+          260
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.1354262828826904
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\a5f8b441946662ee3f76af7b077982f4_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n××学院第×期党校学员登记表 Unnamed: 1 Unnamed: 2     Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6  Unnamed: 7 Unnamed: 8 Unnamed: 9\n            序号         姓名         班级 考    勤   情   况         NaN ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.07227349281311035
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6bed926e75dd9f686d587a36385de35c_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                                                    Unnamed: 1 Unnamed: 2 Unnamed: 3\n        NaN                                                        长期出差报告        NaN      ...",
+    "sensitive_words": [
+      {
+        "word": "费用计算",
+        "positions": [
+          2190
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.1310276985168457
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\6cec25c559bba32015ef3f033ff6abd6_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n2033年一家人超市盒装奶销售数量统计表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5\n                产品编号         品名        签单量       单价/盒       签单金额       到账金额\n                   9         天友   ...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          31
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.130600929260254
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\79301ba752401d530d558dbf1fbef16e_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n客户等级分类表 Unnamed: 1 Unnamed: 2 Unnamed: 3\n   客户等级       客户名称      客户所在地     开始合作日期\n     A级         王荣         北京      2007年\n     D级        周国菊         上海      2008年\n     B级        陶莉莉    ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.101409912109375
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\81ff587eaf850f4b7719d38abcc01a44",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3\n        NaN      干部一览表        NaN        NaN\n        NaN       所任职务         姓名         照片\n        NaN        总经理         戴维        NaN\n      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.007680654525757
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\80d6f07ed6e92d29fd8d3f78ea3ff719_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n月度电话报销费用统计表 Unnamed: 1  Unnamed: 2  Unnamed: 3 Unnamed: 4 Unnamed: 5\n         人员     报销话费\\n         NaN         NaN        NaN        NaN\n     公司领导\\n  正职：880元\\n         NaN         NaN  ...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          22
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.0250303745269775
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8866e3bc18aef147cdc3df2eb90768ed_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\nEmpty DataFrame\nColumns: []\nIndex: []\n\nSheet: Sheet2\nEmpty DataFrame\nColumns: []\nIndex: []\n\nSheet: Sheet3\nEmpty DataFrame\nColumns: []\nIndex: []",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.8569538593292236
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\7c0a4d927a860c91f783b71ebd71f793_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0  Unnamed: 1 Unnamed: 2    Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7    Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11\n        NaN         NaN        NaN          ...",
+    "sensitive_words": [
+      {
+        "word": "验收表",
+        "positions": [
+          471,
+          3595
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 3.0772318840026855
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b230946c14a0ae3eda239ff76976145f_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: 1\nUnnamed: 0  张明  李可欣\n        目标 100  100\n        实际  95   50\n       辅助1  -5   -5\n       辅助2 110  110",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.0630650520324707
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\81ff587eaf850f4b7719d38abcc01a44_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3\n        NaN      干部一览表        NaN        NaN\n        NaN       所任职务         姓名         照片\n        NaN        总经理         戴维        NaN\n      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.049787998199463
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b3721cd33cff4e0d1cf6eb62decbd10d_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n××大学计划财务处考勤情况表  Unnamed: 1                                                     Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.08785200119018555
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b8de729d7b5640cf89488f521aff4a80_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\nUnnamed: 0     Unnamed: 1 Unnamed: 2 Unnamed: 3\n      先期存款            年利率       每月存入   存款月数（3年）\n     50000         0.0215       3000         36\n       NaN            NaN        NaN      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.09578251838684082
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\a1f76c33f2040b6ca17b0748672dcb8a_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "![](data:image/png;base64...)\n\n***2017年度工作总结***\n\n![](data:image/png;base64...)![](data:image/png;base64...)\n\n**2017年银行柜员岗位工作总结**\n\n当日历一页页撕落得只剩下最后一页，一年就这样不知不觉，悄无声息地度过。这一年里，我们用计算机键盘绘出了满天霞光，用算盘珠拔落了万颗\n\n星辰；...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.39967846870422363
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\886ac23c00190fd6b957f5162168e4ac_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 人事常用EXCEL表格 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8\n        NaN         标题1        标题2        标题3        标题4        标题5        标题6       ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.0745208263397217
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\87b49545ccdf4ec119ce273eeac14e5c_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n车辆使用状况月报表                     Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13\n     车牌号码...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.101376533508301
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\82ecc8f64874c5433354f8f0f6bc989f_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0               Unnamed: 1 Unnamed: 2 Unnamed: 3\n        NaN                      NaN        NaN        NaN\n        NaN                       类别         数据        平均值\n        N...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.284428596496582
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\abb10c2e87f39c11e8508edb3f0946b0",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "某某有限公司（盖章）\n\n年 月 日\n\n兹聘请 先生（女士）担任 有限公司\n\n职务，负责 相关工作。\n\n聘期 年，自 年 月 日至 年 月 日。\n\n此聘！\n\n**某某某有限责任公司**\n\n**聘 书**",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.3940002918243408
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8e7b5793228247532b0c590d300afd78_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n公车使用登记表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n     序号         日期      车型及车牌        驾驶员   用车用途及目的地       驶出时间        公里数      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.136711597442627
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8e7b5793228247532b0c590d300afd78",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n公车使用登记表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n     序号         日期      车型及车牌        驾驶员   用车用途及目的地       驶出时间        公里数      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.159996747970581
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\abb10c2e87f39c11e8508edb3f0946b0_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "某某有限公司（盖章）\n\n年 月 日\n\n兹聘请 先生（女士）担任 有限公司\n\n职务，负责 相关工作。\n\n聘期 年，自 年 月 日至 年 月 日。\n\n此聘！\n\n**某某某有限责任公司**\n\n**聘 书**",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.5363607406616211
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d1b7131f612e142d213c27b1ad0f61fa_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                                                                                                                                                          ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03023672103881836
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9cecdf3cb60def8d57871878186990cd",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 各级代理价格\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5\n        NaN 各级代理商代理价格表        NaN        NaN        NaN        NaN\n        NaN       代理级别         价格        NaN        ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.9575872421264648
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9cecdf3cb60def8d57871878186990cd_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 各级代理价格\n Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5\n        NaN 各级代理商代理价格表        NaN        NaN        NaN        NaN\n        NaN       代理级别         价格        NaN        ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.912693977355957
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d1cfa903eada3b5b95b469bdc1da6ec3_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n项目负责人名单 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4\n     序号       项目代码         部门         姓名       职工编码\n      1        NaN        NaN        NaN        NaN\n      2        NaN        NaN ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03699016571044922
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8880fe8937c7276de1e3c1084a0aa0fc_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 调查问卷\n Unnamed: 0                               Unnamed: 1          Unnamed: 2\n        NaN                                  零售业调查问卷                 NaN\n        NaN     为进一步加强本市各大零售业的管理，现就此做一个市场调...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.3997929096221924
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.020555496215820312
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_1",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.016971826553344727
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_2",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.0030515193939208984
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_10",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.012424945831298828
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_3",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.004645109176635742
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_4",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.01301264762878418
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_5",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.02839064598083496
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_6",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03040313720703125
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_7",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.03140711784362793
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d41d8cd98f00b204e9800998ecf8427e_8",
+    "mime_type": "inode/x-empty",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.054077863693237305
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9c2abf6f3efeb62aa1191b09aed92d48_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 公司考勤表\n Unnamed: 0 考   勤   表 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnam...",
+    "sensitive_words": [
+      {
+        "word": "制表人",
+        "positions": [
+          852
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.2605149745941162
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d380b6b5587eee388ebb39b1a12c648c_1",
+    "mime_type": "text/rtf",
+    "content_preview": "{\\rtf1\\ansi\\ansicpg936\\uc1\\deff0 {\\fonttbl{\\f0\\froman\\fcharset134 \\'54\\'69\\'6D\\'65\\'73\\'20\\'4E\\'65\\'77\\'20\\'52\\'6F\\'6D\\'61\\'6E{\\*\\falt \\'54\\'69\\'6D\\'65\\'73\\'20\\'4E\\'65\\'77\\'20\\'52\\'6F\\'6D\\'61\\'6E};}{\\...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.45515942573547363
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\a10e002d32b14407425f71ef08839c8d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n学生资料表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4\n   学号         姓名         性别         班级         住址\n   01         罗洋          男       三年二班        辽宁路\n   02        王忆宇          男       三年...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.270015001296997
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\a1eead356b768fd5d10d75c0f426d2c9_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1          Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5         Unnamed: 6\n        NaN    值班替换申请表                 NaN         NaN         NaN         NaN          ...",
+    "sensitive_words": [
+      {
+        "word": "申请表",
+        "positions": [
+          131
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.4467151165008545
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\de45c6c17e5c2bcf15a2223e19879a60_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 学生家庭住址情况统计 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6 Unnamed: 7\n        NaN      学生总数：        NaN        NaN        NaN        NaN         NaN        NaN\n      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.0707404613494873
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\e01784f39e7ec6605bb7eb6c26e57758_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n基 础 体 温 测 定 表  Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9  Unnamed: 10  Unnamed: 11  Unnamed: 12  Unnamed: 13  Unnamed: 14...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.10144853591918945
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\a815cd00f7f1a2d9ae54ade7e418c288_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n生产物料流水线人员安排表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13\n          编号       物料编码   ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.7405140399932861
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\8d17186e7f1726cc9df5577aa8d1ec14_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 首页\n Unnamed: 0  Unnamed: 1  Unnamed: 2 Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6 Unnamed: 7\n        NaN         NaN         NaN        NaN         NaN         NaN         NaN        NaN\n  ...",
+    "sensitive_words": [
+      {
+        "word": "详细信息",
+        "positions": [
+          663,
+          2563
+        ]
+      },
+      {
+        "word": "政治面貌",
+        "positions": [
+          1608,
+          3450,
+          26600,
+          26762
+        ]
+      },
+      {
+        "word": "制表人",
+        "positions": [
+          6375
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 4.451938629150391
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\e22a80f58bc6f3efe0fce4d87d32da9f_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                  客户信用额度申请表                      Unnamed: 1 Unnamed: 2 Unnamed: 3\n                            （由申请信用帐期客户如实填写）                             NaN        NaN  ...",
+    "sensitive_words": [
+      {
+        "word": "申请表",
+        "positions": [
+          54
+        ]
+      },
+      {
+        "word": "纳税人",
+        "positions": [
+          752,
+          764,
+          2491,
+          2501
+        ]
+      },
+      {
+        "word": "公章",
+        "positions": [
+          1914,
+          2110
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.11809253692626953
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\c0e9452c370f816d68991dc3b9540f9c_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 地区产品价格表 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7  Unnamed: 8  Unnamed: 9  Unnamed: 10  Unnamed: 11  Unnamed: 12  Unnamed: 13  Unnamed: 14\n        NaN...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.672666311264038
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\e25aab12823f468940eb2186c04f3b14_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n 小型微利企业申请认定表                                                            Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unn...",
+    "sensitive_words": [
+      {
+        "word": "纳税人",
+        "positions": [
+          240,
+          375,
+          1989
+        ]
+      },
+      {
+        "word": "国企",
+        "positions": [
+          2229
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.07917594909667969
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\b3e076402a41a6408533e6f28e12f303_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n 行政人事员工请假表                                 Unnamed: 1 Unnamed: 2  Unnamed: 3 Unnamed: 4\n       员工：                                        NaN        工号：         NaN        部门：\n      请假日期...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.87209153175354
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\acacdb36908309dc7afe25d327d71bc2_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0  销售部门月度考评表  Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6\n        NaN       考评月份         NaN        NaN        NaN        NaN        NaN\n        NaN    被 考 评 人      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.8988871574401855
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\ba920aac914093159c7ff487b5eacaa1_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 普通年金与先付年金本金、利息比较分析\n Unnamed: 0 普通年金与先付年金本金、利息比较分析     Unnamed: 2    Unnamed: 3    Unnamed: 4          Unnamed: 5    Unnamed: 6     Unnamed: 7     Unnamed: 8\n        NaN               公司名称      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.929140329360962
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f0da4a50082939963c3639d63bca3419_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                   Unnamed: 0 Unnamed: 1  Unnamed: 2               Unnamed: 3  Unnamed: 4  Unnamed: 5\n                                                   道...",
+    "sensitive_words": [
+      {
+        "word": "投资情况",
+        "positions": [
+          203
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.10165095329284668
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\c02ea3de1bc7af8699f0e17e7b29e598_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n            处罚通知单 Unnamed: 1                               Unnamed: 2 Unnamed: 3 Unnamed: 4\n通知日期：   年   月   日        NaN                                      NaN        NaN        NaN\n  ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.9703969955444336
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f2646b13b6ca280718b00bd4d8ab5f65_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n                                                                                               Unnamed: 0       Unnamed: 1\n                                                               ...",
+    "sensitive_words": [
+      {
+        "word": "公章",
+        "positions": [
+          3040
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.07789063453674316
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\c69e6a04574b9072310f9801573cac1c_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 库存商品盘点表\n         库存商品盘点表  Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8\n             NaN         NaN        NaN        NaN        NaN        NaN      统...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.927194595336914
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f83112c16bb0f5cc420645aab2e448ce_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n部 门 销 售 业 绩 表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6 Unnamed: 7 Unnamed: 8\n           姓名         部门        四月份        五月份        六月份         汇总         NaN   ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.06370043754577637
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\bf30bb197ee0fffc894af76ee10777cf_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 质量问题统计\n产品质量问题分析表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8    Unnamed: 9\n      NaN        NaN        NaN        NaN        NaN        NaN        Na...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.0583035945892334
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d05bc581582b321caa08264bf0843fd3_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 家 宜 超 市\\n销售凭条 Unnamed: 2     Unnamed: 3 Unnamed: 4\n        NaN           NaN        NaN   No:LS0007878        NaN\n        NaN          收银员:        NaN 20    年  月  日         N...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.673079252243042
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\ca6344f8fb839eeeb5081fea79f72b7c",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 员工请假单\n Unnamed: 0 Unnamed: 1                                                                     Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5\n        NaN        NaN                             ...",
+    "sensitive_words": [
+      {
+        "word": "所属部门",
+        "positions": [
+          529
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.9234721660614014
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\foo.ps1",
+    "mime_type": "application/octet-stream",
+    "content_preview": "",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.0717768669128418
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\c974d54cbafdb044eb328884121e07cd_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n重点客户排行榜 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5  Unnamed: 6 Unnamed: 7\n     名次         地区       客户编码       客户名称    销售总额（元）        NaN         NaN        NaN\n      1       ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.0325112342834473
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\cccd5226fc9eca0e55791cf3ede26640_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n销售数据汇总表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7\n    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN\n   销售区域       产品...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.0458920001983643
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\ca6344f8fb839eeeb5081fea79f72b7c_2",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 员工请假单\n Unnamed: 0 Unnamed: 1                                                                     Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5\n        NaN        NaN                             ...",
+    "sensitive_words": [
+      {
+        "word": "所属部门",
+        "positions": [
+          529
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 2.088761329650879
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\fe77ff3fe88b7a2f69af3c636710bc2e_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content_preview": "第三季度如何增长销售\n\nXxx销售部[20XX]888号\n\n**Xxxx科技公司第三季度销售会议**\n\n**会 议 纪 要**\n\n**会议时间：**20XX年XX月XX日至20XX年XX月XX日\n\n**会议地点：**稻壳儿科技大楼四楼会议室\n\n**主 持 人：**稻壳1 稻壳2\n\n**参会人员：**稻壳3 稻壳4 稻壳5 稻壳6 稻壳7 稻壳8 稻壳9 稻壳10 稻壳11 稻壳12 稻壳13 稻壳...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 0.32210373878479004
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d64c35651c622acfca4008af40e27aa9_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0           销毁文件列表 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6\n        NaN 文件编号:YS/QR-09-15        NaN        NaN        NaN        NaN        NaN\n        NaN       ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.834618091583252
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\dcb38b48d02782315debdf989a358c0d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                                                                                                                                                                               ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.4951906204223633
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d3a43e89d37d9fb492062473559643c7_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n销售统计表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4\n  月 份        青 岛        上 海        北 京        南 京\n 一  月        520        640        640        450\n 二  月        230        320        5...",
+    "sensitive_words": [
+      {
+        "word": "统计表",
+        "positions": [
+          16
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 2.0184900760650635
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\cf0fccfcc7f6ee6e3cfa0503c6c33f85_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n销售月度利润分析一览 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6\n        月份       销售一队       销售二队       销售三队       销售四队       销售五队        总利润\n        一月        105        257...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 2.1184728145599365
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\d97de19903aa98e7d22ab375430f4783_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 分钱清单\n衡达公司3月工资单 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4\n     员工姓名         职务       应发工资         实发       本月余额\n       李露         厂长     6734.2       6734        0.2\n      NaN      厂长 汇总      ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.9301435947418213
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\da8dff02f6e3ebbd839c6f552a1722b5_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 固定资产表\n固定资产表          Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6          Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unna...",
+    "sensitive_words": [
+      {
+        "word": "固定资产",
+        "positions": [
+          7,
+          13
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.9359383583068848
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\e0571218ef9f354e105963de455fb9ab_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0       Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8\n        NaN 水  电  费  明  细  表        NaN        NaN        NaN        NaN        ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.4361228942871094
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\dad92d55682cf96905d0799fd149db03_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n                                                           会议人员到场情况分析报告 Unnamed: 1 Unnamed: 2  Unnamed: 3  Unnamed: 4  200\n光明集团2016年第一次全员大会于2016年6月8日召开，本次大会只要围绕“打造更为便捷的网络支付”为主题展开。现将会议参与人...",
+    "sensitive_words": [
+      {
+        "word": "情况分析",
+        "positions": [
+          79,
+          201
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 1.856020212173462
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\eda6b722f4d6994abc85e732f5192548_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0 Unnamed: 1 Unnamed: 2  Unnamed: 3                              Unnamed: 4  Unnamed: 5 Unnamed: 6 Unnamed: 7\n        NaN    培训学员反馈表        NaN         NaN                     ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.1582310199737549
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\fa1b4cf4184e4a3f46bf6a10b609947d_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 支票使用登记簿\n支票使用登记簿 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9\n    NaN          年       支票号码       银行名称       支票金额         用途        到期日     ...",
+    "sensitive_words": [
+      {
+        "word": "支票",
+        "positions": [
+          7,
+          15,
+          147,
+          169
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 0.8925840854644775
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\aa4c26cb42181787adca29eb90f017e2_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n销售数据汇总表 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7\n    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN\n   销售区域       产品...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 3.064262628555298
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f423584e5fe9ed0c151c70ebffc6e539_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0                             有限公司 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13\n     ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.0496840476989746
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f64a878c6974b9b5f809c9c85e46c514_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: Sheet1\n Unnamed: 0  Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14\n        NaN 人才...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.0366783142089844
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f02cabed858f3131264d9d51d09b6321_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 订单\n                               上海惠能公司客户订单 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6\n                                      NaN       订单编号       客户姓名       所在城市       订...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 1.3111751079559326
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\3d360909d541761603c7f3ccd95ddcdc_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 首页\n 生 产 管 理 系 统  Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9 Unnamed: 10\n         NaN         NaN         NaN         NaN         ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 11.943106889724731
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\e8ea3308aa1a5655937ced0aaf8689ea_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 首页\n Unnamed: 0                              Unnamed: 1\n        NaN                                人事信息管理系统\n        NaN Personnel Information Management System\n\nSheet: 员工信息表\n Unnamed: 0 Unnamed:...",
+    "sensitive_words": [
+      {
+        "word": "政治面貌",
+        "positions": [
+          908,
+          8835
+        ]
+      },
+      {
+        "word": "财务部",
+        "positions": [
+          2032,
+          5028,
+          7535
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 6.831687927246094
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\586ec919d576ebd0615b79cbea452725_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 导航页\nEmpty DataFrame\nColumns: []\nIndex: []\n\nSheet: 产品信息\n  序号      产品编码  名称 规格型号  单位  备注\n NaN P20200101  衬衫   XL   件 NaN\n 2.0 P20200102  衬衫  XXL   件 NaN\n 3.0 P20200103  衬衫 XXXL   件 NaN\n 4.0 P2020...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 12.247408390045166
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5c432168f0f73505b51d7bab5a6426e3_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n商业计划书PPT模板\nWe have many PowerPoint templates that has been specifically designed to help anyone that is stepping into the world of PowerPoint for the very first time.\n汇报人:小鹿p...",
+    "sensitive_words": [
+      {
+        "word": "数据分析",
+        "positions": [
+          3932
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 12.662452220916748
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\5ccde6b3a22a0f2634881e330792b921_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n路演商务计划书模板\nCLICK TO ADD UP YOUR TITLE HERE\n—— 汇报人/小鹿ppt\n\n—— 时间/ＸＸ年ＸＸ月\nＬＯＧＯ\n\n<!-- Slide number: 2 -->\n\n项目背景简介\n1.\n单击此处编辑副标题，建议您在展示时采用微软雅黑字体，本模版所有图形线条均可自由编辑、改色、替换\n项目计划介绍\n2.\n单击此处编...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 14.635839223861694
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\f1c4121ef191d555d5dcddddba932a60_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n![图片 14](图片14.jpg)\nType your content here, or by copying your text, select Paste in this box and choose to keep only the text.\n部门：XXXX               日期: XXXX\n公司发展战略规划\nLOGO\n企业...",
+    "sensitive_words": [
+      {
+        "word": "战略规划",
+        "positions": [
+          188,
+          282,
+          1551,
+          1688,
+          2063,
+          2257,
+          2511,
+          2781,
+          5669
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 10.52104377746582
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\c84d78da1d97b0abf43abc4fbe26681a_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n![C:\\Users\\ABC\\Desktop\\Nipic_10605672_20121226090435540320.png](Picture5.jpg)\n\n![C:\\Users\\ABC\\Desktop\\Nipic_10605672_20121226090435540320.png](Picture5.jpg)\n\n![C:\\Users\\ABC\\D...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 12.318770170211792
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9f17e5c14b0c9be11f8f6c3fa4de6e06_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_preview": "Sheet: 首页\n 生 产 制 造 管 理 系 统  Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4 Unnamed: 5  Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9 Unnamed: 10\n             NaN         NaN         NaN         NaN  ...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 13.379130125045776
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\9a6ef27ecc28dcd5d13a27ce6fe8360f_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n![C:\\Users\\Administrator\\Desktop\\4545标题-1.jpg](Picture3.jpg)\n\n![纯音乐 - 轻快背景音乐.mp3](纯音乐轻快背景音乐mp3.jpg)\n\n输入公司名称\n企业战略投资合作PPT\n| 商业融资 | 企业宣传 | 项目合作 | 商务展示 |\n汇报：郝帅     部门：销售部\n\n201X\n\n...",
+    "sensitive_words": [
+      {
+        "word": "经济效益",
+        "positions": [
+          3406,
+          3497
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 14.286006927490234
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\a5be5af2407ad510aa45981e496c0b29_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n![图片 3](图片3.jpg)\n商业计划书PPT\n单击此处编辑副标题，建议您在展示时采用微软雅黑字体，本模版所有图形线条及其相应素材均可自由编辑、改色、替换。\n\n汇报人\n\nxxxxxx\n201X\n\n<!-- Slide number: 2 -->\n\n![图片 1](图片1.jpg)\n\n目录\n\n/CONTENTS\n\n项目背景简介\n1\n\n项目计划介...",
+    "sensitive_words": [
+      {
+        "word": "市场占有率",
+        "positions": [
+          3449,
+          3481,
+          3513,
+          3545
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 13.873021841049194
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\fc6218244802cd9de375452dbddda243_1",
+    "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "content_preview": "<!-- Slide number: 1 -->\n\n![图片 3](图片3.jpg)\n商务计划书模板\nSHANGWUJIHUASHUMOBAN\n\n汇报人：xxxxx\n201X\n\n<!-- Slide number: 2 -->\n\n![图片 1](图片1.jpg)\n\n项目背景简介\n1\n\n项目计划介绍\n2\n\n市场状况分析\n3\n\n投资回报分析\n4\n\n<!-- Slide number: 3 -->\n\n!...",
+    "sensitive_words": [],
+    "error": null,
+    "processing_time": 11.643834590911865
+  },
+  {
+    "file_path": "C:\\file\\foooooo\\72981539429c388ab24dff97838fdbf8_1",
+    "mime_type": "application/vnd.ms-excel",
+    "content_preview": "Sheet: Sheet1\n支票使用登记簿   |          |        |        |           |           |     |      |   \n  年 月 日   | 支票号码     | 银行名称   | 支票金额   | 用途        | 到期日       | 开具人 | 使用人  | 备注\n2006.6.3  | 356470.0 | 中...",
+    "sensitive_words": [
+      {
+        "word": "支票",
+        "positions": [
+          14,
+          107,
+          127
+        ]
+      }
+    ],
+    "error": null,
+    "processing_time": 17.327989101409912
+  }
+]
