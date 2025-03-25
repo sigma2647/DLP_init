@@ -10,3 +10,4 @@ wheels/
 .venv
 ai/data.db
 ai/data1.db
+nuitka-crash-report.xml
