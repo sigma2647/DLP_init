@@ -14,3 +14,4 @@ nuitka-crash-report.xml
 0_sample_extract/data.db
 0_sample_extract/data1.db
 1_train/best_model.pth
+1_train/bert-base-multilingual-cased/pytorch_model.bin
