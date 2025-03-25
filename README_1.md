@@ -36,3 +36,10 @@
    - 提供完整的处理流程
 
 nuitka --onefile --include-package-data=magic .\main_7.py
+
+
+现在有几个问题 
+
+遇到加密的保护文件会卡住
+有的doc文件不会正确识别
+

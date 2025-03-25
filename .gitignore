@@ -11,3 +11,6 @@ wheels/
 ai/data.db
 ai/data1.db
 nuitka-crash-report.xml
+0_sample_extract/data.db
+0_sample_extract/data1.db
+1_train/best_model.pth
