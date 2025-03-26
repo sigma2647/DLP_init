@@ -27,6 +27,8 @@ import win32com.client
 import pythoncom
 import psutil
 from pptx import Presentation
+from transformers import BertForSequenceClassification, BertTokenizer
+import torch
 
 # 配置日志
 logging.basicConfig(
@@ -379,9 +381,43 @@ class FileSignatureDetector:
 
             # 检查OLE签名
             elif header_hex.startswith("D0CF11E0A1B11AE1"):  # OLE签名
-                ole_mime = self.inspect_ole_content(file_path)
-                if ole_mime:
-                    return ole_mime
+                # 首先尝试基于内容特征识别
+                try:
+                    with open(file_path, "rb") as f:
+                        content = f.read(8192)
+                        hex_content = content.hex().upper()
+                        content_str = content.decode("latin1", errors="ignore")
+                        
+                        # Excel特有特征
+                        if b"Microsoft Excel" in content or b"Workbook" in content:
+                            return "application/vnd.ms-excel"
+                        
+                        # 基于数据模式识别Excel (检测单元格数据模式)
+                        cell_pattern = re.compile(r'Cell[^a-zA-Z0-9]', re.IGNORECASE)
+                        sheet_pattern = re.compile(r'Sheet\d', re.IGNORECASE)
+                        
+                        if cell_pattern.search(content_str) and sheet_pattern.search(content_str):
+                            logger.info(f"基于单元格/工作表特征识别为Excel: {file_path}")
+                            return "application/vnd.ms-excel"
+                            
+                        # 尝试常规OLE检测
+                        ole_mime = self.inspect_ole_content(file_path)
+                        if ole_mime:
+                            return ole_mime
+                        
+                        # 如检测失败，使用二进制数据模式
+                        if "Standard Jet DB" in content_str or "Excel.Sheet" in content_str:
+                            return "application/vnd.ms-excel"
+                            
+                        # 最后回退到默认
+                        return "application/x-ole-storage"
+                except Exception as e:
+                    logger.warning(f"增强OLE检测失败: {str(e)}")
+                    return "application/x-ole-storage"
+
+
+
+
 
             # 检查PDF签名
             elif header_hex.startswith("25504446"):
@@ -632,92 +668,173 @@ class FileTypeDetector:
                         logger.info(f"基于内容特征可能是Excel文件: {file_path}")
                         return "application/vnd.ms-excel"  # 可能是Excel
 
-                logger.info(f"无法精确判断OLE文件类型，默认为Word文档: {file_path}")
-                # 默认假设是Word文档(最常见)
-                return "application/msword"
+
+
+
+
+                logger.info(f"无法精确判断OLE文件类型，进行深度内容分析: {file_path}")
+                # 尝试更深入分析OLE文件内容特征
+                try:
+                    with open(file_path, "rb") as f:
+                        content = f.read(32768)  # 读取更多内容用于分析
+                        content_str = content.decode("latin1", errors="ignore")
+                        
+                        # 计算特征分数来确定文件类型
+                        excel_score = 0
+                        word_score = 0
+                        
+                        # Excel特征检测 - 更多的Excel特征词
+                        excel_markers = ["Workbook", "Excel", "Worksheet", "Sheet", "Cell", 
+                                         "PivotTable", "Chart", "Formula", "BIFF", "Microsoft Excel"]
+                        for marker in excel_markers:
+                            if marker in content_str:
+                                excel_score += 1
+                        
+                        # 检测Excel特有的结构特征
+                        if "Sheet1" in content_str or "Sheet2" in content_str:
+                            excel_score += 2
+                        if content_str.count("Cell") > 10:
+                            excel_score += 2
+                        if content_str.count("Row") > 10:
+                            excel_score += 2
+                            
+                        # Word特征检测
+                        word_markers = ["Word.Document", "MSWordDoc", "WordDocument", 
+                                        "Microsoft Word", "Normal.dot", "Paragraph"]
+                        for marker in word_markers:
+                            if marker in content_str:
+                                word_score += 1
+                                
+                        # 基于得分判断
+                        logger.debug(f"OLE分析得分 - Excel: {excel_score}, Word: {word_score}")
+                        if excel_score > word_score:
+                            return "application/vnd.ms-excel"
+                        elif word_score > excel_score:
+                            return "application/msword"
+                        else:
+                            # 如仍无法确定，返回通用OLE类型
+                            return "application/x-ole-storage"
+                except Exception as e:
+                    logger.warning(f"深度OLE内容分析失败: {str(e)}")
+                    return "application/x-ole-storage"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         except Exception as e:
             logger.warning(f"OLE文件类型检测失败: {file_path} - {str(e)}")
             # 返回通用OLE类型
             return "application/x-ole-storage"
 
     def detect_file_type(self, file_path: str) -> str:
-        """
-        Improved file type detection based primarily on file signatures
-        """
+        """检测文件 MIME 类型，优化文件类型检测，增强OLE文件识别"""
         try:
-            # Read file header bytes
-            header_hex = self.read_file_header(file_path, 32)
-            
-            # Check for encryption markers first
-            if self.is_encrypted_file(header_hex, file_path):
-                logger.warning(f"Detected encrypted file: {file_path}")
-                return "application/encrypted"
-                
-            # Match against file signatures before checking extension
-            for signature, info in self.FILE_SIGNATURES.items():
-                if header_hex.startswith(signature):
-                    # For ZIP-based formats, do deeper inspection
-                    if signature == "504B0304":  # ZIP signature
-                        zip_mime = self.inspect_zip_content(file_path)
-                        if zip_mime:
-                            return zip_mime
-                    # For OLE formats, do deeper inspection
-                    elif signature == "D0CF11E0A1B11AE1":  # OLE signature
-                        ole_mime = self.inspect_ole_content(file_path)
-                        if ole_mime:
-                            return ole_mime
-                    # For other signatures, return first mime type
-                    return info["mime_types"][0]
-                    
-            # If magic library is available, use it as fallback
-            if self.mime:
-                mime_type = self.get_magic_mime_type(file_path)
-                if mime_type and mime_type != "application/octet-stream":
-                    return mime_type
-                    
-            # Last resort: binary stream
-            return "application/octet-stream"
-        except Exception as e:
-            logger.error(f"File type detection failed: {file_path} - {e}")
-            return "application/octet-stream"
-            
-    def is_encrypted_file(self, header_hex: str, file_path: str) -> bool:
-        """
-        Check if a file is encrypted based on signatures and patterns
-        """
-        # Known encryption signatures
-        encryption_markers = [
-            "8CBAD9FF0ADA", # Common in some encrypted files
-            "52617221", # RAR signature with encryption bit
-        ]
-        
-        # Check header for known encryption markers
-        for marker in encryption_markers:
-            if marker in header_hex:
-                return True
-                
-        # For Office files, check for encryption indicators
-        try:
-            if header_hex.startswith("D0CF11E0A1B11AE1"):  # OLE files
+            # 规范化路径
+            normalized_path = os.path.normpath(
+                file_path.encode("utf-8", errors="replace").decode("utf-8")
+            )
+
+            # 获取文件扩展名
+            ext = Path(file_path).suffix.lower()
+
+            # 通过扩展名快速确定常见Office文件
+            if ext == ".docx":
+                return "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            elif ext == ".xlsx":
+                return (
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                )
+            elif ext == ".pptx":
+                return "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+            elif ext == ".doc":
+                return "application/msword"
+            elif ext == ".xls":
+                return "application/vnd.ms-excel"
+            elif ext == ".ppt":
+                return "application/vnd.ms-powerpoint"
+
+            # 使用magic库获取MIME类型
+            mime_type = self.mime.from_file(normalized_path)
+
+            # 检查文件头部以确认类型
+            try:
                 with open(file_path, "rb") as f:
-                    content = f.read(4096)  # Read first 4KB
-                    # Look for encryption markers in OLE files
-                    if b"EncryptedPackage" in content or b"EncryptionInfo" in content:
-                        return True
-            elif header_hex.startswith("504B0304"):  # ZIP-based files
-                try:
-                    import zipfile
-                    with zipfile.ZipFile(file_path) as zf:
-                        # Check for encryption markers in OOXML files
-                        if "EncryptionInfo" in zf.namelist() or "EncryptedPackage" in zf.namelist():
-                            return True
-                except zipfile.BadZipFile:
-                    # Corrupted ZIP could be encrypted
-                    return True
-        except Exception:
-            pass
-        
-        return False
+                    header = f.read(8)
+
+                    # 检查Office Open XML格式(ZIP-based)
+                    if header.startswith(b"PK\x03\x04"):
+                        try:
+                            import zipfile
+
+                            with zipfile.ZipFile(file_path) as zf:
+                                file_list = zf.namelist()
+                                if "word/document.xml" in file_list:
+                                    return "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                elif "xl/workbook.xml" in file_list:
+                                    return "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                                elif "ppt/presentation.xml" in file_list:
+                                    return "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                        except Exception as zip_error:
+                            logger.debug(
+                                f"ZIP文件内容检查失败: {file_path} - {str(zip_error)}"
+                            )
+
+                        # 如果无法通过内容确定，但有扩展名，使用扩展名映射
+                        if ext in self.MIME_TYPES:
+                            return self.MIME_TYPES[ext]
+                        return "application/zip"
+
+                    # 检查OLE复合文档(DOC/XLS/PPT)
+                    elif header.startswith(b"\xd0\xcf\x11\xe0"):
+                        # 使用增强的OLE文件类型检测
+                        ole_type = self._detect_ole_file_type(file_path)
+                        if ole_type != "unknown":
+                            return ole_type
+
+                        # 如果OLE检测不确定，尝试使用扩展名
+                        if ext == ".doc":
+                            return "application/msword"
+                        elif ext == ".xls":
+                            return "application/vnd.ms-excel"
+                        elif ext == ".ppt":
+                            return "application/vnd.ms-powerpoint"
+
+                        # 最后返回通用OLE类型或基于magic的类型
+                        return (
+                            "application/x-ole-storage"
+                            if mime_type == "application/octet-stream"
+                            else mime_type
+                        )
+
+                    # 检查PDF文件
+                    elif header.startswith(b"%PDF"):
+                        return "application/pdf"
+            except Exception as header_error:
+                logger.debug(f"文件头检查失败: {file_path} - {str(header_error)}")
+
+            # 如果magic库返回的不是通用类型，使用它
+            if mime_type not in ("application/octet-stream", "text/plain"):
+                return mime_type
+
+            # 最后尝试通过扩展名确定类型
+            return self.MIME_TYPES.get(ext, "application/octet-stream")
+
+        except Exception as e:
+            logger.error(f"文件类型检测失败 {file_path}: {e}")
+            # 如果一切都失败了，尝试用扩展名，否则返回二进制流类型
+            return self.MIME_TYPES.get(
+                Path(file_path).suffix.lower(), "application/octet-stream"
+            )
 
     def get_mime_by_extension(self, extension: str) -> str:
         """通过文件扩展名获取MIME类型"""
@@ -1358,53 +1475,194 @@ class ContentExtractor:
                 logger.warning(f"清理临时目录失败: {temp_dir} - {str(e)}")
 
     def _extract_doc_content(self, file_path: str) -> Dict[str, Any]:
-        """
-        Enhanced DOC content extraction with multi-layered fallback
-        """
-        # Try multiple approaches in order of preference
-        methods = [
-            self._extract_doc_with_antiword,
-            self._extract_doc_with_textract,
-            self._extract_doc_with_win32com,
-            self._extract_doc_with_catdoc,
-            self._extract_binary_text_content
-        ]
-        
-        errors = []
-        for method in methods:
-            try:
-                result = method(file_path)
-                if result.get("content") and len(result.get("content", "")) > 50:
-                    return result
-            except Exception as e:
-                errors.append(f"{method.__name__}: {str(e)}")
-                continue
-        
-        # All methods failed
-        return self._create_error_result(
-            "doc", f"All extraction methods failed: {'; '.join(errors)}"
-        )
+        """提取DOC文件内容，使用专用的Word实例，改进COM对象管理"""
+        logger.info(f"处理DOC文件: {file_path}")
+        max_retries = 3
+        timeout = 10  # 默认超时时间(秒)
 
-    def _extract_doc_with_antiword(self, file_path: str) -> Dict[str, Any]:
-        """Extract DOC content using antiword command-line tool"""
-        try:
-            import subprocess
-            result = subprocess.run(
-                ["antiword", file_path], 
-                capture_output=True, 
-                text=True, 
-                timeout=10
-            )
-            if result.stdout:
-                return {
-                    "content": result.stdout,
-                    "metadata": {"file_type": "doc", "extractor": "antiword"},
-                    "error": None
-                }
-            else:
-                return self._create_error_result("doc", f"antiword returned empty output")
-        except Exception as e:
-            return self._create_error_result("doc", f"antiword extraction failed: {str(e)}")
+        for attempt in range(max_retries):
+            try:
+                # 设置超时标志和结果变量
+                timeout_occurred = [False]
+                result = [None]
+                exception = [None]
+                processing_completed = [False]
+
+                # 主处理函数
+                def process_doc():
+                    try:
+                        # 初始化COM
+                        pythoncom.CoInitialize()
+                        word_app = None
+                        doc = None
+
+                        try:
+                            # 创建Word应用实例
+                            word_app = win32com.client.Dispatch("Word.Application")
+                            word_app.Visible = False
+                            word_app.DisplayAlerts = False
+
+                            # 尝试打开文档
+                            abs_path = os.path.abspath(file_path)
+                            doc = word_app.Documents.Open(
+                                abs_path,
+                                ReadOnly=True,
+                                PasswordDocument="",
+                                Visible=False,
+                                NoEncodingDialog=True,
+                                OpenAndRepair=True,
+                            )
+
+                            # 提取文本内容
+                            content = doc.Range().Text
+
+                            # 设置结果
+                            result[0] = {
+                                "content": content,
+                                "metadata": {
+                                    "file_type": "doc",
+                                    "extractor": "win32com",
+                                },
+                                "error": None
+                                if content.strip()
+                                else "未提取到任何文本内容",
+                            }
+
+                        except Exception as e:
+                            # 捕获处理异常
+                            exception[0] = e
+                        finally:
+                            # 确保资源释放
+                            try:
+                                if doc:
+                                    doc.Close(SaveChanges=False)
+                            except:
+                                pass
+                            try:
+                                if word_app:
+                                    word_app.Quit()
+                            except:
+                                pass
+                            try:
+                                pythoncom.CoUninitialize()
+                            except:
+                                pass
+
+                            # 标记处理完成
+                            processing_completed[0] = True
+                    except Exception as e:
+                        # 捕获总体异常
+                        exception[0] = e
+                        processing_completed[0] = True
+
+                # 超时处理函数
+                def handle_timeout():
+                    if not processing_completed[0]:
+                        timeout_occurred[0] = True
+                        logger.warning(f"处理文件超时 ({timeout}秒): {file_path}")
+                        self._force_close_office_processes("WINWORD.EXE")
+
+                # 创建并启动处理线程
+                process_thread = threading.Thread(target=process_doc)
+                process_thread.daemon = True
+                process_thread.start()
+
+                # 创建并启动超时定时器
+                timer = threading.Timer(timeout, handle_timeout)
+                timer.daemon
+
+                process_thread.daemon = True
+                process_thread.start()
+
+                # 创建并启动超时定时器
+                timer = threading.Timer(timeout, handle_timeout)
+                timer.daemon = True
+                timer.start()
+
+                # 等待处理完成或超时
+                process_thread.join(timeout + 2)  # 给超时处理留出额外时间
+                timer.cancel()  # 取消定时器
+
+                # 检查处理结果
+                if timeout_occurred[0]:
+                    logger.error(f"处理DOC文件超时: {file_path}")
+                    return {
+                        "content": "",
+                        "metadata": {"file_type": "doc", "extractor": "win32com"},
+                        "error": f"处理超时 ({timeout}秒)",
+                    }
+                # 处理结果检查部分的修改
+                elif exception[0]:
+                    # 处理过程中发生异常
+                    error_str = str(exception[0])
+
+                    # 以下错误类型直接跳过，不再重试
+                    skip_retry_errors = [
+                        "(-2147352567, '发生意外。', (0, 'Microsoft Word', '命令失败'",  # Word命令失败
+                        "(-2147023174, '服务器执行操作时发生错误'",  # 服务器错误
+                        "RPC_E_SERVERFAULT",  # RPC服务器错误
+                        "COMError",  # 一般COM错误
+                        "AutomationException",  # 自动化异常
+                    ]
+
+                    # 检查是否是需要直接跳过的错误
+                    if any(skip_err in error_str for skip_err in skip_retry_errors):
+                        logger.warning(
+                            f"检测到无需重试的错误，直接跳过: {error_str} - 文件: {file_path}"
+                        )
+                        return {
+                            "content": "",
+                            "metadata": {"file_type": "doc", "extractor": "win32com"},
+                            "error": f"Office错误，跳过处理: {error_str}",
+                        }
+
+                    # 如果不是跳过类型的错误，且未达到最大重试次数，则重试
+                    if attempt < max_retries - 1:
+                        logger.warning(
+                            f"第 {attempt + 1} 次尝试处理 {file_path} 失败: {error_str}, 重试中..."
+                        )
+                        time.sleep(2)
+                        continue
+
+                    return {
+                        "content": "",
+                        "metadata": {"file_type": "doc", "extractor": "win32com"},
+                        "error": f"Win32COM 处理失败: {error_str}",
+                    }
+
+                elif result[0]:
+                    # 处理成功
+                    return result[0]
+                else:
+                    # 未知错误
+                    if attempt < max_retries - 1:
+                        logger.warning(
+                            f"第 {attempt + 1} 次尝试处理 {file_path} 出现未知错误, 重试中..."
+                        )
+                        time.sleep(2)
+                        continue
+                    return {
+                        "content": "",
+                        "metadata": {"file_type": "doc", "extractor": "win32com"},
+                        "error": "处理过程遇到未知错误",
+                    }
+
+            except Exception as e:
+                logger.error(f"处理DOC文件异常: {str(e)}")
+                if attempt == max_retries - 1:
+                    return {
+                        "content": "",
+                        "metadata": {"file_type": "doc", "extractor": "win32com"},
+                        "error": f"处理失败: {str(e)}",
+                    }
+
+        # 清理可能残留的进程
+        self._force_close_office_processes("WINWORD.EXE")
+        return {
+            "content": "",
+            "metadata": {"file_type": "doc", "extractor": "win32com"},
+            "error": "所有处理尝试均失败",
+        }
 
     def _extract_ppt_content(self, file_path: str) -> Dict[str, Any]:
         """提取PPT文件内容，处理Visible属性错误和多级回退策略"""
@@ -2073,30 +2331,109 @@ class ContentExtractor:
 
 
 class SensitiveChecker:
-    """敏感内容检查器，使用正则表达式替代 Aho-Corasick"""
+    """增强型敏感内容检查器，支持YAML配置和BERT模型两种模式"""
 
-    def __init__(self, config_path: str = "sensitive_config.yaml"):
-        """初始化敏感词配置"""
-        self.config = self._load_config(config_path)
+    def __init__(self, config_path="sensitive_config.yaml", model_path="best_model.pth"):
+        """初始化敏感内容检查器，自动判断使用YAML配置或BERT模型"""
+        self.config_path = config_path
+        self.model_path = model_path
+        self.mode = None  # 'yaml' 或 'bert'
+        self.bert_model = None
+        self.bert_tokenizer = None
+        self.config = None
+        self.all_keywords = []
+        self.keyword_pattern = None
+        self.max_length = 128  # BERT模型的最大序列长度
+        self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        
+        # 首先尝试加载BERT模型
+        if os.path.exists(model_path):
+            try:
+                # 加载分词器和模型
+                model_name = 'bert-base-multilingual-cased'
+                self.bert_tokenizer = BertTokenizer.from_pretrained(model_name)
+                self.bert_model = BertForSequenceClassification.from_pretrained(model_name, num_labels=2)
+                self.bert_model.load_state_dict(torch.load(model_path, map_location=self.device))
+                self.bert_model.to(self.device)
+                self.bert_model.eval()  # 设置为评估模式
+                
+                self.mode = 'bert'
+                logger.info(f"已成功加载BERT敏感内容分类模型: {model_path}")
+            except Exception as e:
+                logger.warning(f"加载BERT模型失败: {str(e)}，将尝试YAML配置")
+                self.bert_tokenizer = None
+                self.bert_model = None
+        
+        # 如果BERT模型加载失败或文件不存在，尝试YAML配置
+        if self.mode is None and os.path.exists(config_path):
+            try:
+                self._load_yaml_config()
+                self.mode = 'yaml'
+                logger.info(f"已成功加载YAML敏感词配置: {config_path}")
+            except Exception as e:
+                logger.warning(f"加载YAML配置失败: {str(e)}")
+        
+        # 如果两种方式都失败，使用空配置
+        if self.mode is None:
+            logger.warning("BERT模型和YAML配置均无法加载，将使用空检测器（不会检测任何敏感内容）")
+            self.mode = 'empty'
+    
+    def _load_yaml_config(self):
+        """加载YAML配置文件"""
+        with open(self.config_path, "r", encoding="utf-8") as f:
+            self.config = yaml.safe_load(f)
+            
         self.all_keywords = self.config.get("security_marks", []) + [
             kw
             for cat in self.config.get("sensitive_patterns", {}).values()
             for kw in cat.get("keywords", [])
         ]
         escaped_keywords = [re.escape(kw) for kw in self.all_keywords]
-        self.keyword_pattern = re.compile("|".join(escaped_keywords))
+        self.keyword_pattern = re.compile("|".join(escaped_keywords)) if escaped_keywords else None
 
-    def _load_config(self, config_path: str) -> Dict:
-        """加载敏感词配置文件"""
-        try:
-            with open(config_path, "r", encoding="utf-8") as f:
-                return yaml.safe_load(f)
-        except Exception as e:
-            logger.error(f"加载敏感词配置失败: {e}")
-            return {}
+    def preprocess_text(self, text):
+        """预处理输入文本"""
+        if not text or not isinstance(text, str):
+            return None
+            
+        encoding = self.bert_tokenizer.encode_plus(
+            text,
+            add_special_tokens=True,
+            max_length=self.max_length,
+            truncation=True,
+            padding='max_length',
+            return_attention_mask=True,
+            return_tensors='pt'
+        )
+        return encoding
 
-    def check_content(self, text: str) -> List[Tuple[str, List[int]]]:
-        """检查文本中的敏感词"""
+    def predict(self, text):
+        """对输入文本进行分类预测"""
+        if self.bert_model is None or self.bert_tokenizer is None:
+            logger.error("BERT模型未成功加载，无法进行预测")
+            return 0  # 默认为非敏感
+            
+        # 预处理文本
+        encoding = self.preprocess_text(text)
+        if encoding is None:
+            return 0
+            
+        input_ids = encoding['input_ids'].to(self.device)
+        attention_mask = encoding['attention_mask'].to(self.device)
+
+        # 进行预测
+        with torch.no_grad():
+            outputs = self.bert_model(input_ids=input_ids, attention_mask=attention_mask)
+            logits = outputs.logits
+            preds = torch.argmax(logits, dim=1).cpu().numpy()
+
+        return preds[0]  # 返回预测结果: 0表示非敏感，1表示敏感
+
+    def _check_content_yaml(self, text):
+        """使用YAML配置的正则表达式检查敏感内容"""
+        if not self.keyword_pattern or not text:
+            return []
+            
         keyword_matches = {}
         for match in self.keyword_pattern.finditer(text or ""):
             keyword = match.group()
@@ -2120,6 +2457,32 @@ class SensitiveChecker:
                 number_results.append((pattern, positions))
 
         return keyword_results + structured_results + number_results
+
+    def check_content(self, text):
+        """检查文本中的敏感内容，根据初始化时的模式选择检测方法"""
+        if not text or not isinstance(text, str) or len(text.strip()) == 0:
+            return []
+            
+        try:
+            if self.mode == 'bert':
+                # 使用BERT模型检测
+                prediction = self.predict(text[:self.max_length])
+                
+                if prediction == 1:  # 如果预测为敏感
+                    # 返回格式要和原来保持一致: [(word, [positions])]
+                    # 这里我们用"BERT模型检测为敏感内容"作为敏感词
+                    return [("BERT模型检测为敏感内容", [0])]
+                else:
+                    return []  # 非敏感返回空列表
+            elif self.mode == 'yaml':
+                # 使用YAML配置的正则表达式检测
+                return self._check_content_yaml(text)
+            else:
+                # 空检测器
+                return []
+        except Exception as e:
+            logger.error(f"敏感内容检查失败: {str(e)}")
+            return []
 
 
 class ResultExporter:
@@ -2274,6 +2637,7 @@ class FileProcessor:
     def __init__(
         self,
         config_path: str = "sensitive_config.yaml",
+        model_path: str = "best_model.pth",
         monitor_output: str = "processing_results.csv",
         chunk_size: int = 1000,
         max_workers: Optional[int] = None,
@@ -2281,7 +2645,7 @@ class FileProcessor:
     ):
         self.detector = FileTypeDetector()
         self.extractor = ContentExtractor(detector=self.detector, is_windows=is_windows)
-        self.checker = SensitiveChecker(config_path)
+        self.checker = SensitiveChecker(config_path=config_path, model_path=model_path)  # 支持两种方式
         self.exporter = ResultExporter()
         self.monitor = ResultMonitor(monitor_output)
         self.chunk_size = chunk_size
@@ -2529,12 +2893,25 @@ class FileProcessor:
             doc_timeout = 10  # 设置DOC文件处理超时时间为10秒
             ppt_timeout = 10  # 设置PPT文件处理超时时间为10秒
 
-            if ext.lower() == ".doc":
+            # 特殊处理Office文档，避免线程锁序列化问题 - 使用超时功能
+            # 因为没有扩展名，改为基于MIME类型判断
+            if mime_type == "application/msword":
                 # 使用带超时功能的函数处理DOC文件
-                content = process_doc_file(file_path, timeout=doc_timeout)
-            elif ext.lower() == ".ppt":
+                content = self.extractor._extract_doc_content(file_path)
+            elif mime_type == "application/vnd.ms-powerpoint":
                 # 使用带超时功能的函数处理PPT文件
-                content = process_ppt_file(file_path, timeout=ppt_timeout)
+                content = self.extractor._extract_ppt_content(file_path)
+            elif mime_type == "application/vnd.ms-excel":
+                # 针对Excel文件使用专用处理函数
+                try:
+                    content = self.extractor._extract_xls_content(file_path)
+                except Exception as excel_error:
+                    logger.error(f"处理Excel文件失败: {str(excel_error)}")
+                    content = {
+                        "content": "",
+                        "metadata": {"file_type": "excel"},
+                        "error": f"Excel处理失败: {str(excel_error)}"
+                    }
             else:
                 # 使用容错增强版的提取内容方法处理其他文件
                 try:
@@ -2627,6 +3004,9 @@ def main():
         "--config", default="sensitive_config.yaml", help="敏感词配置文件路径"
     )
     parser.add_argument(
+        "--model", default="best_model.pth", help="BERT分类模型路径"
+    )
+    parser.add_argument(
         "--output", default="results", help="输出结果文件名(不含扩展名)"
     )
     parser.add_argument(
@@ -2644,6 +3024,7 @@ def main():
     try:
         processor = FileProcessor(
             config_path=args.config,
+            model_path=args.model,
             monitor_output=f"{args.output}_processing.csv",
             chunk_size=args.chunk_size,
             max_workers=args.workers,
@@ -2666,7 +3047,6 @@ def main():
     except Exception as e:
         logger.error(f"程序执行出错: {e}")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()

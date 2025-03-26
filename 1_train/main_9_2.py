@@ -27,6 +27,8 @@ import win32com.client
 import pythoncom
 import psutil
 from pptx import Presentation
+from transformers import BertForSequenceClassification, BertTokenizer
+import torch
 
 # 配置日志
 logging.basicConfig(
@@ -2073,30 +2075,118 @@ class ContentExtractor:
 
 
 class SensitiveChecker:
-    """敏感内容检查器，使用正则表达式替代 Aho-Corasick"""
+    """增强型敏感内容检查器，支持YAML配置和BERT模型两种模式"""
 
-    def __init__(self, config_path: str = "sensitive_config.yaml"):
-        """初始化敏感词配置"""
-        self.config = self._load_config(config_path)
+    def __init__(self, config_path="sensitive_config.yaml", model_path="best_model.pth"):
+        """初始化敏感内容检查器，优先尝试使用BERT模型"""
+        self.config_path = config_path
+        self.model_path = model_path
+        self.mode = None
+        self.bert_model = None
+        self.bert_tokenizer = None
+        self.config = None
+        self.all_keywords = []
+        self.keyword_pattern = None
+        self.max_length = 128
+        
+        # 记录初始化参数
+        logger.info(f"初始化敏感内容检查器 - 模型路径: {model_path}, YAML配置路径: {config_path}")
+        
+        # 强制优先尝试加载BERT模型
+        if os.path.exists(model_path):
+            try:
+                logger.info(f"尝试加载BERT模型: {model_path}")
+                self._init_bert_model()
+                self.mode = 'bert'
+                logger.info(f"成功加载BERT模型: {model_path}")
+            except Exception as e:
+                logger.error(f"加载BERT模型失败: {str(e)}")
+                import traceback
+                logger.error(traceback.format_exc())
+        
+        # 只有在BERT模型加载失败时才尝试YAML配置
+        if self.mode is None and os.path.exists(config_path):
+            try:
+                logger.info(f"尝试加载YAML配置: {config_path}")
+                self._init_yaml_config()
+                self.mode = 'yaml'
+                logger.info(f"成功加载YAML配置: {config_path}")
+            except Exception as e:
+                logger.error(f"加载YAML配置失败: {str(e)}")
+        
+        # 如果两种方式都失败，使用空配置
+        if self.mode is None:
+            logger.warning("BERT模型和YAML配置均无法加载，将使用空检测器（不会检测任何敏感内容）")
+            self.mode = 'empty'
+        
+        logger.info(f"敏感内容检查器初始化完成，使用模式: {self.mode}")
+            
+    def _init_bert_model(self):
+        """初始化BERT模型"""
+        model_name = 'bert-base-multilingual-cased'
+        self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        
+        # 加载分词器
+        self.bert_tokenizer = BertTokenizer.from_pretrained(model_name)
+        
+        # 加载模型
+        self.bert_model = BertForSequenceClassification.from_pretrained(model_name, num_labels=2)
+        self.bert_model.load_state_dict(torch.load(self.model_path, map_location=self.device))
+        self.bert_model.to(self.device)
+        self.bert_model.eval()
+        
+    def _init_yaml_config(self):
+        """加载YAML配置并初始化敏感词匹配"""
+        with open(self.config_path, "r", encoding="utf-8") as f:
+            self.config = yaml.safe_load(f)
+            
         self.all_keywords = self.config.get("security_marks", []) + [
             kw
             for cat in self.config.get("sensitive_patterns", {}).values()
             for kw in cat.get("keywords", [])
         ]
         escaped_keywords = [re.escape(kw) for kw in self.all_keywords]
-        self.keyword_pattern = re.compile("|".join(escaped_keywords))
+        self.keyword_pattern = re.compile("|".join(escaped_keywords)) if escaped_keywords else None
 
-    def _load_config(self, config_path: str) -> Dict:
-        """加载敏感词配置文件"""
-        try:
-            with open(config_path, "r", encoding="utf-8") as f:
-                return yaml.safe_load(f)
-        except Exception as e:
-            logger.error(f"加载敏感词配置失败: {e}")
-            return {}
+    def _bert_preprocess_text(self, text):
+        """BERT模型的文本预处理"""
+        if not text or not isinstance(text, str):
+            return None
+            
+        encoding = self.bert_tokenizer.encode_plus(
+            text,
+            add_special_tokens=True,
+            max_length=self.max_length,
+            truncation=True,
+            padding='max_length',
+            return_attention_mask=True,
+            return_tensors='pt'
+        )
+        return encoding
 
-    def check_content(self, text: str) -> List[Tuple[str, List[int]]]:
-        """检查文本中的敏感词"""
+    def _bert_predict(self, text):
+        """使用BERT模型进行预测"""
+        # 预处理文本
+        encoding = self._bert_preprocess_text(text)
+        if encoding is None:
+            return 0
+            
+        input_ids = encoding['input_ids'].to(self.device)
+        attention_mask = encoding['attention_mask'].to(self.device)
+
+        # 进行预测
+        with torch.no_grad():
+            outputs = self.bert_model(input_ids=input_ids, attention_mask=attention_mask)
+            logits = outputs.logits
+            preds = torch.argmax(logits, dim=1).cpu().numpy()
+
+        return preds[0]  # 返回预测结果: 0表示非敏感，1表示敏感
+
+    def _yaml_check_content(self, text):
+        """使用YAML配置的正则表达式检查敏感内容"""
+        if not self.keyword_pattern or not text:
+            return []
+            
         keyword_matches = {}
         for match in self.keyword_pattern.finditer(text or ""):
             keyword = match.group()
@@ -2120,6 +2210,34 @@ class SensitiveChecker:
                 number_results.append((pattern, positions))
 
         return keyword_results + structured_results + number_results
+        
+    def check_content(self, text):
+        """检查文本中的敏感内容，根据初始化时的模式选择检测方法"""
+        if not text or not isinstance(text, str) or len(text.strip()) == 0:
+            return []
+            
+        try:
+            if self.mode == 'bert':
+                # 使用BERT模型检测
+                prediction = self._bert_predict(text[:self.max_length])
+                
+                if prediction == 1:  # 如果预测为敏感
+                    # 返回格式: [(word, [positions])]
+                    return [("BERT模型检测为敏感内容", [0])]
+                else:
+                    return []  # 非敏感返回空列表
+                    
+            elif self.mode == 'yaml':
+                # 使用YAML配置的正则表达式检测
+                return self._yaml_check_content(text)
+                
+            else:
+                # 空检测器
+                return []
+                
+        except Exception as e:
+            logger.error(f"敏感内容检查失败: {str(e)}")
+            return []
 
 
 class ResultExporter:
@@ -2274,6 +2392,7 @@ class FileProcessor:
     def __init__(
         self,
         config_path: str = "sensitive_config.yaml",
+        model_path: str = "best_model.pth", 
         monitor_output: str = "processing_results.csv",
         chunk_size: int = 1000,
         max_workers: Optional[int] = None,
@@ -2281,7 +2400,7 @@ class FileProcessor:
     ):
         self.detector = FileTypeDetector()
         self.extractor = ContentExtractor(detector=self.detector, is_windows=is_windows)
-        self.checker = SensitiveChecker(config_path)
+        self.checker = SensitiveChecker(config_path=config_path, model_path=model_path)  # 支持两种方式
         self.exporter = ResultExporter()
         self.monitor = ResultMonitor(monitor_output)
         self.chunk_size = chunk_size
@@ -2531,10 +2650,10 @@ class FileProcessor:
 
             if ext.lower() == ".doc":
                 # 使用带超时功能的函数处理DOC文件
-                content = process_doc_file(file_path, timeout=doc_timeout)
+                content = self.extractor._extract_doc_content(file_path)
             elif ext.lower() == ".ppt":
                 # 使用带超时功能的函数处理PPT文件
-                content = process_ppt_file(file_path, timeout=ppt_timeout)
+                content = self.extractor._extract_ppt_content(file_path)
             else:
                 # 使用容错增强版的提取内容方法处理其他文件
                 try:
@@ -2627,6 +2746,9 @@ def main():
         "--config", default="sensitive_config.yaml", help="敏感词配置文件路径"
     )
     parser.add_argument(
+        "--model", default="best_model.pth", help="BERT分类模型路径"
+    )
+    parser.add_argument(
         "--output", default="results", help="输出结果文件名(不含扩展名)"
     )
     parser.add_argument(
@@ -2644,6 +2766,7 @@ def main():
     try:
         processor = FileProcessor(
             config_path=args.config,
+            model_path=args.model,
             monitor_output=f"{args.output}_processing.csv",
             chunk_size=args.chunk_size,
             max_workers=args.workers,
@@ -2666,7 +2789,6 @@ def main():
     except Exception as e:
         logger.error(f"程序执行出错: {e}")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
