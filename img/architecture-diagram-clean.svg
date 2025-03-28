@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 定义渐变和样式 -->
+  <defs>
+    <!-- 颜色渐变 -->
+    <linearGradient id="header-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4527A0" />
+      <stop offset="100%" stop-color="#7E57C2" />
+    </linearGradient>
+    
+    <!-- 模块颜色 -->
+    <linearGradient id="input-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD" />
+      <stop offset="100%" stop-color="#BBDEFB" />
+    </linearGradient>
+    
+    <linearGradient id="process-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9" />
+      <stop offset="100%" stop-color="#C8E6C9" />
+    </linearGradient>
+    
+    <linearGradient id="output-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0" />
+      <stop offset="100%" stop-color="#FFE0B2" />
+    </linearGradient>
+    
+    <linearGradient id="controller-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5F5" />
+      <stop offset="100%" stop-color="#E1BEE7" />
+    </linearGradient>
+    
+    <!-- 阴影效果 -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+    
+    <!-- 箭头 -->
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="7" refY="6" orient="auto">
+      <path d="M2,2 L2,11 L10,6 L2,2" style="fill:#2c3e50;" />
+    </marker>
+    
+    <marker id="control-arrow" markerWidth="13" markerHeight="13" refX="7" refY="6" orient="auto">
+      <path d="M2,2 L2,11 L10,6 L2,2" style="fill:#9C27B0;" />
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题栏 -->
+  <rect x="50" y="20" width="700" height="60" rx="10" ry="10" fill="url(#header-gradient)" filter="url(#shadow)" />
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">文件敏感内容检测工具 - 系统架构</text>
+  
+  <!-- 输入模块 -->
+  <g transform="translate(80, 150)">
+    <rect width="150" height="280" rx="10" ry="10" fill="url(#input-fill)" stroke="#2196F3" stroke-width="2" filter="url(#shadow)" />
+    <rect x="20" y="15" width="110" height="30" rx="15" ry="15" fill="#2196F3" />
+    <text x="75" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">输入层</text>
+    
+    <!-- FileTypeDetector -->
+    <rect x="15" y="60" width="120" height="200" rx="5" ry="5" fill="white" stroke="#64B5F6" stroke-width="1" />
+    <text x="75" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1976D2">FileTypeDetector</text>
+    <line x1="25" y1="95" x2="125" y2="95" stroke="#E3F2FD" stroke-width="2" />
+    
+    <text x="75" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#546E7A">功能:</text>
+    <text x="30" y="145" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• MIME类型识别</text>
+    <text x="30" y="170" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 文件头部分析</text>
+    <text x="30" y="195" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 扩展名匹配</text>
+    <text x="30" y="220" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 批量文件处理</text>
+  </g>
+  
+  <!-- 处理模块 -->
+  <g transform="translate(310, 150)">
+    <rect width="200" height="280" rx="10" ry="10" fill="url(#process-fill)" stroke="#4CAF50" stroke-width="2" filter="url(#shadow)" />
+    <rect x="45" y="15" width="110" height="30" rx="15" ry="15" fill="#4CAF50" />
+    <text x="100" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">处理层</text>
+    
+    <!-- ContentExtractor -->
+    <rect x="20" y="60" width="160" height="100" rx="5" ry="5" fill="white" stroke="#81C784" stroke-width="1" />
+    <text x="100" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#388E3C">ContentExtractor</text>
+    <line x1="30" y1="95" x2="170" y2="95" stroke="#E8F5E9" stroke-width="2" />
+    
+    <text x="35" y="115" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• MarkItDown提取引擎</text>
+    <text x="35" y="135" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• Office文档专用提取</text>
+    <text x="35" y="155" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 多编码自动识别</text>
+    
+    <!-- SensitiveChecker -->
+    <rect x="20" y="170" width="160" height="100" rx="5" ry="5" fill="white" stroke="#81C784" stroke-width="1" />
+    <text x="100" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#388E3C">SensitiveChecker</text>
+    <line x1="30" y1="205" x2="170" y2="205" stroke="#E8F5E9" stroke-width="2" />
+    
+    <text x="35" y="225" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• YAML敏感词配置</text>
+    <text x="35" y="245" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 关键词与正则匹配</text>
+    <text x="35" y="265" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 敏感词位置记录</text>
+  </g>
+  
+  <!-- 输出模块 -->
+  <g transform="translate(590, 150)">
+    <rect width="150" height="280" rx="10" ry="10" fill="url(#output-fill)" stroke="#FF9800" stroke-width="2" filter="url(#shadow)" />
+    <rect x="20" y="15" width="110" height="30" rx="15" ry="15" fill="#FF9800" />
+    <text x="75" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">输出层</text>
+    
+    <!-- ResultMonitor -->
+    <rect x="15" y="60" width="120" height="100" rx="5" ry="5" fill="white" stroke="#FFB74D" stroke-width="1" />
+    <text x="75" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#E65100">ResultMonitor</text>
+    <line x1="25" y1="95" x2="125" y2="95" stroke="#FFF3E0" stroke-width="2" />
+    
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 实时处理进度</text>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• CSV实时记录</text>
+    <text x="30" y="155" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 状态追踪</text>
+    
+    <!-- ResultExporter -->
+    <rect x="15" y="170" width="120" height="100" rx="5" ry="5" fill="white" stroke="#FFB74D" stroke-width="1" />
+    <text x="75" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#E65100">ResultExporter</text>
+    <line x1="25" y1="205" x2="125" y2="205" stroke="#FFF3E0" stroke-width="2" />
+    
+    <text x="30" y="225" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• JSON导出</text>
+    <text x="30" y="245" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• Excel报表生成</text>
+    <text x="30" y="265" font-family="Arial, sans-serif" font-size="11" fill="#546E7A">• 结果汇总分析</text>
+  </g>
+  
+  <!-- 控制器模块 -->
+  <g transform="translate(200, 470)">
+    <rect width="400" height="60" rx="30" ry="30" fill="url(#controller-fill)" stroke="#9C27B0" stroke-width="2" filter="url(#shadow)" />
+    <text x="200" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4A148C">FileProcessor (中央控制与并行处理)</text>
+  </g>
+  
+  <!-- 连接箭头 (水平) -->
+  <!-- 输入层到处理层 -->
+  <line x1="230" y1="290" x2="310" y2="290" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- 处理层内部连接 - ContentExtractor到SensitiveChecker -->
+  <line x1="410" y1="250" x2="410" y2="270" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- 处理层到输出层 -->
+  <line x1="510" y1="220" x2="590" y2="220" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="510" y1="320" x2="590" y2="320" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- 控制器连接 (垂直) -->
+  <path d="M400,470 L400,430" stroke="#9C27B0" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#control-arrow)" />
+  <path d="M220,470 L155,430" stroke="#9C27B0" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#control-arrow)" />
+  <path d="M580,470 L665,430" stroke="#9C27B0" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#control-arrow)" />
+  
+  <!-- 底部解释文本 -->
+  <rect x="150" y="550" width="500" height="30" rx="15" ry="15" fill="#ECEFF1" />
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#37474F">
+    并行处理 | 多线程 | 分块处理 | 缓存优化 | 容错机制 | 预加载技术
+  </text>
+</svg>

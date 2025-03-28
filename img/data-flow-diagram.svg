@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <!-- 背景 -->
+  <rect width="900" height="500" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">文件敏感内容检测工具 - 数据流程图</text>
+  
+  <!-- 阶段标题 -->
+  <text x="100" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d47a1">输入</text>
+  <text x="300" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1b5e20">类型识别</text>
+  <text x="500" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e65100">内容提取</text>
+  <text x="700" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4a148c">敏感检测与输出</text>
+  
+  <!-- 文件图标 -->
+  <rect x="50" y="120" width="100" height="60" rx="5" ry="5" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" />
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">单个文件</text>
+  
+  <rect x="50" y="200" width="100" height="60" rx="5" ry="5" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" />
+  <text x="100" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">文件目录</text>
+  
+  <!-- 文件类型检测 -->
+  <rect x="250" y="120" width="100" height="60" rx="5" ry="5" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" />
+  <text x="300" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">MIME类型</text>
+  <text x="300" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">检测</text>
+  
+  <rect x="250" y="200" width="100" height="60" rx="5" ry="5" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" />
+  <text x="300" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">批量预加载</text>
+  <text x="300" y="250" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">与缓存</text>
+  
+  <!-- 内容提取 -->
+  <rect x="450" y="120" width="100" height="60" rx="5" ry="5" fill="#fff3e0" stroke="#ff9800" stroke-width="2" />
+  <text x="500" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">文本文件</text>
+  <text x="500" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">UTF-8/GBK</text>
+  <text x="500" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">编码识别</text>
+  
+  <rect x="450" y="200" width="100" height="60" rx="5" ry="5" fill="#fff3e0" stroke="#ff9800" stroke-width="2" />
+  <text x="500" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Office文档</text>
+  <text x="500" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">MarkItDown</text>
+  <text x="500" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">专用提取器</text>
+  
+  <rect x="450" y="280" width="100" height="60" rx="5" ry="5" fill="#fff3e0" stroke="#ff9800" stroke-width="2" />
+  <text x="500" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Excel/CSV</text>
+  <text x="500" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">表格数据</text>
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">结构化提取</text>
+  
+  <!-- 敏感检测与输出 -->
+  <rect x="650" y="120" width="100" height="60" rx="5" ry="5" fill="#e1bee7" stroke="#9c27b0" stroke-width="2" />
+  <text x="700" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">敏感内容</text>
+  <text x="700" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">检测与标记</text>
+  <text x="700" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">(位置记录)</text>
+  
+  <rect x="650" y="200" width="100" height="60" rx="5" ry="5" fill="#e1bee7" stroke="#9c27b0" stroke-width="2" />
+  <text x="700" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">实时监控</text>
+  <text x="700" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">CSV记录</text>
+  <text x="700" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">处理进度</text>
+  
+  <rect x="650" y="280" width="100" height="60" rx="5" ry="5" fill="#e1bee7" stroke="#9c27b0" stroke-width="2" />
+  <text x="700" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">结果导出</text>
+  <text x="700" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">JSON/Excel</text>
+  <text x="700" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">汇总报告</text>
+  
+  <!-- 并行处理 - ThreadPoolExecutor -->
+  <rect x="200" y="380" width="500" height="60" rx="10" ry="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="450" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">ThreadPoolExecutor 并行处理框架</text>
+  <text x="450" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">分块处理 | 动态线程数量 | 自适应资源管理</text>
+  
+  <!-- 数据流箭头 -->
+  <!-- 文件 -> 类型检测 -->
+  <path d="M150,150 L250,150" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M150,230 L250,230" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- 类型检测 -> 内容提取 -->
+  <path d="M350,150 L450,150" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M350,230 C380,230 380,230 400,230" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M400,230 C420,230 420,230 450,230" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M350,230 C380,240 400,260 420,290" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M420,290 C440,320 440,310 450,310" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- 内容提取 -> 敏感检测 -->
+  <path d="M550,150 L650,150" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M550,230 L650,230" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M550,310 C580,310 580,310 610,310" stroke="#666" stroke-width="2" fill="none" />
+  <path d="M610,310 L650,310" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- 实例化处理 -->
+  <path d="M700,180 L700,200" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M700,260 L700,280" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- 并行处理框架 -->
+  <path d="M200,380 L200,250" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,5" fill="none" />
+  <path d="M700,380 L700,350" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,5" fill="none" />
+  <path d="M200,250 C200,100 700,100 700,120" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,5" fill="none" marker-end="url(#purplearrow)" />
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+    <marker id="purplearrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9c27b0" />
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="450" y="470" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">核心特点: 高性能 | 多格式支持 | 实时监控 | 容错机制 | 灵活配置</text>
+</svg>
